@@ -1,6 +1,6 @@
 body {
     background: linear-gradient(135deg, #e6f0fa 0%, #cfe3f5 100%);
-    font-family: 'Inter', Arial, sans-serif;
+    font-family: 'Montserrat', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
     color: #222;
 }
 
