@@ -15,12 +15,15 @@
                     <i class="fas fa-briefcase mr-2 accent-chetwode"></i>
                     Cegah Banjir
                 </div>
-                <div class="hidden md:flex space-x-8" id="nav-links">
+                <div class="hidden md:flex space-x-8">
                     <a href="#home" class="text-[#1b1b18] hover:text-[#f53003] transition-colors">Home</a>
                     <a href="#services" class="text-[#1b1b18] hover:text-[#f53003] transition-colors">Services</a>
                     <a href="#about" class="text-[#1b1b18] hover:text-[#f53003] transition-colors">About</a>
                     <a href="#contact" class="text-[#1b1b18] hover:text-[#f53003] transition-colors">Contact</a>
                 </div>
+                <a href="{{ route('admin.login.form') ?? '/admin/login' }}" class="hidden md:inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-[#1b1b18] bg-[#f53003] rounded-md hover:bg-[#d62800] transition-colors">
+                    <i class="fas fa-user-shield"></i> Admin Login
+                </a>
                 <button id="menu-toggle" class="md:hidden">☰</button>
             </div>
         </nav>
