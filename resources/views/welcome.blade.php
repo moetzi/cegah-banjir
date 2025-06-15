@@ -7,37 +7,42 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link href="{{ asset('css/cegahbanjir.css') }}" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body class="gradient-bg min-h-screen">
     <!-- Header -->
-    <nav class="glass-effect fixed w-full z-50 px-6 py-4 bg-white bg-opacity-100 border-b border-gray-200">
+    <nav class="w-full z-50 px-6 py-4 bg-[#7ebde9]">
         <div class="max-w-7xl mx-auto flex justify-between items-center">
-            <div class="accent-yinmn text-2xl font-bold flex items-center">
-                <i class="fas fa-briefcase mr-2 accent-chetwode"></i>
-                Cegah Banjir
+            <div class="text-2xl font-bold flex items-center text-white">
+                CeBan
             </div>
             <div class="hidden md:flex space-x-8">
-                <a href="#home" class="accent-black hover:accent-blue transition-colors">Home</a>
-                <a href="#services" class="accent-black hover:accent-blue transition-colors">Services</a>
-                <a href="#about" class="accent-black hover:accent-blue transition-colors">About</a>
-                <a href="#contact" class="accent-black hover:accent-blue transition-colors">Contact</a>
+                <a href="#home" class="text-white hover:text-blue-100 transition-colors">Home</a>
+                <a href="#services" class="text-white hover:text-blue-100 transition-colors">Services</a>
+                <a href="#about" class="text-white hover:text-blue-100 transition-colors">About</a>
+                <a href="#contact" class="text-white hover:text-blue-100 transition-colors">Contact</a>
             </div>
-            <a href="{{ route('admin.login.form') ?? '/admin/login' }}" class="accent-bg-blue text-white px-6 py-2 rounded-full font-semibold hover:accent-bg-yinmn transition-all admin-btn-hover">
+            <a href="/admin/login" class="bg-white text-[#3793e0] px-6 py-2 rounded-full font-semibold hover:bg-blue-100 transition-all flex items-center">
                 <i class="fas fa-user-shield mr-2"></i>Admin Login
             </a>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <section id="home" class="min-h-screen flex items-center justify-center px-6 pt-20">
+    <section id="home" class="hero-section flex items-center justify-center px-6 pt-20">
         <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
             <!-- Left Content -->
             <div class="accent-black slide-in">
-                <h1 class="text-5xl md:text-6xl font-bold mb-6 leading-tight">
-                    Cegah Banjir
-                    <span class="accent-blue">Platform</span>
-                </h1>
-                <p class="text-xl mb-8 text-gray-700 leading-relaxed">
+                <!-- Homepage Hero Title -->
+                <div class="mb-8">
+                    <span class="block text-[80px] leading-none font-extrabold text-[#7ebde9]">
+                        CeBan
+                    </span>
+                    <span class="block text-4xl tracking-widest font-bold text-white mb-8 drop-shadow-lg" style="letter-spacing:0.15em;">
+                        CEGAH BANJIR
+                    </span>
+                </div>
+                <p class="text-xl mb-8 text-white leading-relaxed drop-shadow-lg">
                     Solusi aman dan terpercaya untuk pencegahan dan penanganan banjir di lingkungan Anda.
                     Cepat, aman, dan dipercaya oleh banyak pengguna di seluruh Indonesia.
                 </p>
@@ -45,7 +50,7 @@
                     <button class="accent-bg-blue text-white px-8 py-4 rounded-full font-semibold text-lg hover:accent-bg-yinmn transition-all transform hover:scale-105">
                         <i class="fas fa-rocket mr-2"></i>Mulai Sekarang
                     </button>
-                    <button class="border-2 border-[var(--chetwode-blue)] text-[var(--chetwode-blue)] px-8 py-4 rounded-full font-semibold text-lg hover:bg-[var(--chetwode-blue)] hover:text-white transition-all">
+                    <button class="border-2 border-[var(--chetwode-blue)] text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-[var(--chetwode-blue)] hover:text-white transition-all">
                         <i class="fas fa-play mr-2"></i>Pelajari Lebih Lanjut
                     </button>
                 </div>

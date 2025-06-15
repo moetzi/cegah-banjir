@@ -6,46 +6,7 @@
     <title>Admin Login - {{ config('app.name', 'Laravel') }}</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <style>
-        .gradient-bg {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        }
-        .slide-in-right {
-            animation: slideInRight 0.8s ease-out;
-        }
-        .slide-in-left {
-            animation: slideInLeft 0.8s ease-out;
-        }
-        .fade-in {
-            animation: fadeIn 1s ease-out;
-        }
-        @keyframes slideInRight {
-            from { opacity: 0; transform: translateX(50px); }
-            to { opacity: 1; transform: translateX(0); }
-        }
-        @keyframes slideInLeft {
-            from { opacity: 0; transform: translateX(-50px); }
-            to { opacity: 1; transform: translateX(0); }
-        }
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
-        .floating-elements {
-            animation: float 6s ease-in-out infinite;
-        }
-        @keyframes float {
-            0%, 100% { transform: translateY(0px) rotate(0deg); }
-            50% { transform: translateY(-20px) rotate(5deg); }
-        }
-        .pulse-gentle {
-            animation: pulseGentle 3s ease-in-out infinite;
-        }
-        @keyframes pulseGentle {
-            0%, 100% { opacity: 0.8; transform: scale(1); }
-            50% { opacity: 1; transform: scale(1.05); }
-        }
-    </style>
+    <link href="{{ asset('css/login.css') }}" rel="stylesheet">
 </head>
 <body class="gradient-bg min-h-screen flex items-center justify-center p-4">
     <!-- Back to Home Button -->
