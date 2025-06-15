@@ -26,12 +26,13 @@
                     <i class="fas fa-briefcase mr-2 accent-chetwode"></i>
                     Cegah Banjir
                 </div>
-                <div class="hidden md:flex space-x-8">
+                <div class="hidden md:flex space-x-8" id="nav-links">
                     <a href="#home" class="text-[#1b1b18] hover:text-[#f53003] transition-colors">Home</a>
                     <a href="#services" class="text-[#1b1b18] hover:text-[#f53003] transition-colors">Services</a>
                     <a href="#about" class="text-[#1b1b18] hover:text-[#f53003] transition-colors">About</a>
                     <a href="#contact" class="text-[#1b1b18] hover:text-[#f53003] transition-colors">Contact</a>
                 </div>
+                <button id="menu-toggle" class="md:hidden">☰</button>
             </div>
         </nav>
 
@@ -316,5 +317,11 @@
                 </div>
             </div>
         </footer>
+
+        <script>
+            document.getElementById('menu-toggle').onclick = function() {
+                document.getElementById('nav-links').classList.toggle('hidden');
+            }
+        </script>
     </body>
 </html>
