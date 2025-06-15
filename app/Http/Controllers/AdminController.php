@@ -16,6 +16,16 @@ class AdminController extends Controller
     // Handle admin login
     public function login(Request $request)
     {
+        // BYPASS: Allow login without validating credentials
+        // You can set a default admin user ID to log in as
+        // For example, assuming your admin user has ID = 1
+
+        Auth::loginUsingId(1); // Bypass authentication, logs in user with ID 1
+        $request->session()->regenerate();
+        return redirect()->intended('/admin/dashboard');
+
+        // --- Original code below (commented out) ---
+        /*
         $credentials = $request->validate([
             'email'    => ['required', 'email'],
             'password' => ['required'],
@@ -28,6 +38,7 @@ class AdminController extends Controller
         }
 
         return back()->with('error', 'Invalid credentials or not an admin.');
+        */
     }
 
     // Optional: Admin dashboard (dummy)

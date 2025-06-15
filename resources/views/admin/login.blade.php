@@ -20,9 +20,9 @@
         <div class="grid md:grid-cols-2 min-h-[600px]">
 
             <!-- Left Side - Illustration -->
-            <div class="bg-gradient-to-br from-white via-blue-200 to-blue-500 p-8 flex items-center justify-center relative overflow-hidden slide-in-left">
-                <!-- Replace illustration with your image only -->
-                <img src="{{ asset('images/high-water.jpg') }}" alt="High Water Sign" class="rounded-xl shadow-lg w-full max-w-md mx-auto">
+            <div class="bg-gradient-to-br from-white via-blue-200 to-blue-500 p-0 flex items-stretch justify-stretch relative overflow-hidden slide-in-left">
+                <img src="{{ asset('images/high-water.jpg') }}" alt="High Water Sign"
+                     class="w-full h-full object-cover rounded-none m-0" style="min-height:100%; min-width:100%;">
             </div>
 
             <!-- Right Side - Login Form -->
@@ -41,7 +41,7 @@
                         @csrf
                         <div>
                             <label for="email" class="block text-gray-700 font-medium mb-1">Email</label>
-                            <input id="email" type="email" name="email" value="{{ old('email') }}" required autofocus
+                            <input id="email" type="email" name="email" value="{{ old('email') }}" autofocus
                                 class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 transition">
                             @error('email')
                                 <span class="text-red-500 text-sm">{{ $message }}</span>
@@ -49,7 +49,7 @@
                         </div>
                         <div>
                             <label for="password" class="block text-gray-700 font-medium mb-1">Password</label>
-                            <input id="password" type="password" name="password" required
+                            <input id="password" type="password" name="password"
                                 class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 transition">
                             @error('password')
                                 <span class="text-red-500 text-sm">{{ $message }}</span>

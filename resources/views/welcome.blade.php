@@ -178,13 +178,13 @@
     <!-- Footer -->
     <footer class="py-12 px-6 border-t border-gray-200 bg-[var(--white-smoke)]">
         <div class="max-w-6xl mx-auto text-center accent-black">
-            <div class="mb-8">
-                <div class="text-2xl font-bold mb-4">
-                    <i class="fas fa-briefcase mr-2 accent-blue"></i>
-                    Cegah Banjir
-                </div>
-                <p class="text-gray-700 max-w-2xl mx-auto">
-                    Mitra terpercaya Anda untuk solusi dan penanganan banjir yang aman dan andal.
+            <!-- Footer Brand - Make it bold, blue, and larger -->
+            <div class="flex flex-col items-center mb-6">
+                <span class="font-extrabold text-2xl accent-blue tracking-tight" style="letter-spacing:-1px;">
+                    CeBan
+                </span>
+                <p class="mt-2 text-gray-700 max-w-xl text-center">
+                    Mitra terpercaya Anda untuk solusi dan penanganan banjir yang aman dan andal.<br>
                     Membuat penanganan bencana menjadi mudah dan dapat diakses oleh semua orang.
                 </p>
             </div>
