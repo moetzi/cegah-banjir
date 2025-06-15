@@ -240,6 +240,16 @@
                         </div>
                     </div>
                 </div>
+                <div class="mt-8">
+                    <form>
+                        <input type="text" name="name" placeholder="Nama" class="w-full p-3 mb-4 border rounded-md">
+                        <input type="email" name="email" placeholder="Email" class="w-full p-3 mb-4 border rounded-md">
+                        <textarea name="message" placeholder="Pesan" class="w-full p-3 mb-4 border rounded-md"></textarea>
+                        <button type="submit" class="w-full p-3 bg-[#f53003] text-white rounded-md hover:bg-[#d62800] transition-colors">
+                            Kirim
+                        </button>
+                    </form>
+                </div>
             </div>
         </section>
 
