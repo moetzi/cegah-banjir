@@ -11,18 +11,18 @@
 </head>
 <body class="gradient-bg min-h-screen">
     <!-- Header -->
-    <nav class="w-full z-50 px-6 py-4 bg-[#7ebde9]">
+    <nav class="w-full z-50 px-6 py-4 bg-white">
         <div class="max-w-7xl mx-auto flex justify-between items-center">
-            <div class="text-2xl font-bold flex items-center text-white">
+            <div class="text-2xl font-bold flex items-center text-[#3793e0]">
                 CeBan
             </div>
             <div class="hidden md:flex space-x-8">
-                <a href="#home" class="text-white hover:text-blue-100 transition-colors">Home</a>
-                <a href="#services" class="text-white hover:text-blue-100 transition-colors">Services</a>
-                <a href="#about" class="text-white hover:text-blue-100 transition-colors">About</a>
-                <a href="#contact" class="text-white hover:text-blue-100 transition-colors">Contact</a>
+                <a href="#home" class="text-[#3793e0] hover:text-blue-700 transition-colors">Home</a>
+                <a href="#services" class="text-[#3793e0] hover:text-blue-700 transition-colors">Services</a>
+                <a href="#about" class="text-[#3793e0] hover:text-blue-700 transition-colors">About</a>
+                <a href="#contact" class="text-[#3793e0] hover:text-blue-700 transition-colors">Contact</a>
             </div>
-            <a href="/admin/login" class="bg-white text-[#3793e0] px-6 py-2 rounded-full font-semibold hover:bg-blue-100 transition-all flex items-center">
+            <a href="/admin/login" class="bg-[#3793e0] text-white px-6 py-2 rounded-full font-semibold hover:bg-blue-700 transition-all flex items-center">
                 <i class="fas fa-user-shield mr-2"></i>Admin Login
             </a>
         </div>
