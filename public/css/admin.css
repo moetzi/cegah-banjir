@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f5f7fa;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 220px;
+    background: #89c6f0;
+    color: #fff;
+    padding: 20px;
+}
+
+.sidebar .logo {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.sidebar nav a {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.sidebar nav a:hover,
+.sidebar nav a.active {
+    background: #ffffff33;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    background: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.profile img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.weather-card {
+    background: linear-gradient(135deg, #3166d3, #4a90e2);
+    color: white;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.temperature {
+    font-size: 36px;
+    margin: 0;
+}
+
+.info-box {
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.info-box.blue {
+    background: #e1f0ff;
+    border-left: 5px solid #3f87f5;
+}
+
+.info-box.yellow {
+    background: #fff9e6;
+    border-left: 5px solid #f5c842;
+}
+
+.alert-box.red {
+    background: #ffe6e6;
+    color: #c0392b;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
