@@ -3,36 +3,33 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Session;
 
 class AdminController extends Controller
 {
-    // Show the admin login form
-    public function showLoginForm()
+    public function index()
     {
-        return view('admin.login');
+        return view('admin.dashboard');
     }
 
-    // Handle admin login (no validation, just redirect)
-    public function login(Request $request)
+    public function statusDAS()
     {
-        // No validation, just redirect to homepage
-        return redirect()->route('admin.homepage');
+        return view('admin.status-das');
     }
 
-    // Admin homepage
-    public function homepage()
+    public function evakuasi()
     {
-        return view('admin.homepage');
+        return view('admin.evakuasi');
     }
 
-    // Optional: Logout
-    public function logout(Request $request)
+    public function users()
     {
-        Auth::logout();
-        $request->session()->invalidate();
-        $request->session()->regenerateToken();
-        return redirect()->route('admin.login.form');
+        return view('admin.users');
+    }
+
+    public function logout()
+    {
+        Session::flush();
+        return redirect('/login')->with('success', 'Berhasil logout!');
     }
 }
-

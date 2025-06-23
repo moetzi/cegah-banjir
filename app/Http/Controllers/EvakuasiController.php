@@ -3,26 +3,52 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\EvakuasiRequest;
+use Illuminate\Support\Facades\Http;
 
 class EvakuasiController extends Controller
 {
-    public function index()
+    protected $databaseUrl;
+
+    public function __construct()
     {
-        return view('evakuasi');
+        $this->databaseUrl = env('FIREBASE_DATABASE_URL');
     }
 
-    public function store(Request $request)
+    public function form()
+    {
+        return view('request-evakuasi');
+    }
+
+    public function submit(Request $request)
     {
         $request->validate([
-            'nama' => 'required|string',
-            'telepon' => 'required|string',
-            'jumlah_orang' => 'required|integer',
-            'keterangan' => 'nullable|string',
+            'nama'       => 'required',
+            'telepon'    => 'required',
+            'lokasi'     => 'required',
+            'orang'      => 'required',
+            'keterangan' => 'required'
         ]);
 
-        EvakuasiRequest::create($request->all());
+        $data = [
+            'nama'       => $request->nama,
+            'telepon'    => $request->telepon,
+            'lokasi'     => $request->lokasi,
+            'orang'      => $request->orang,
+            'keterangan' => $request->keterangan,
+            'status'     => 'Menunggu',
+            'created_at' => now()->toDateTimeString()
+        ];
 
-        return redirect()->back()->with('success', 'Permintaan evakuasi berhasil dikirim.');
+        Http::post($this->databaseUrl . '/evakuasi.json', $data);
+
+        return redirect('/')->with('success', 'Request evakuasi berhasil dikirim.');
+    }
+
+    public function adminEvakuasi()
+    {
+        $response = Http::get($this->databaseUrl . '/evakuasi.json');
+        $evakuasi = $response->json();
+
+        return view('admin.evakuasi', compact('evakuasi'));
     }
 }

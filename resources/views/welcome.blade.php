@@ -22,7 +22,7 @@
                 <a href="#about" class="text-[#3793e0] hover:text-blue-700 transition-colors">About</a>
                 <a href="#contact" class="text-[#3793e0] hover:text-blue-700 transition-colors">Contact</a>
             </div>
-            <a href="/admin/login" class="bg-[#3793e0] text-white px-6 py-2 rounded-full font-semibold hover:bg-blue-700 transition-all flex items-center">
+            <a href="/login" class="bg-[#3793e0] text-white px-6 py-2 rounded-full font-semibold hover:bg-blue-700 transition-all flex items-center">
                 <i class="fas fa-user-shield mr-2"></i>Admin Login
             </a>
         </div>
