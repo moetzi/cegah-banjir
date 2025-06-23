@@ -18,9 +18,9 @@
             </div>
             <div class="hidden md:flex space-x-8">
                 <a href="#home" class="text-[#3793e0] hover:text-blue-700 transition-colors">Home</a>
-                <a href="#services" class="text-[#3793e0] hover:text-blue-700 transition-colors">Services</a>
+                <a href="/status-banjir" class="text-[#3793e0] hover:text-blue-700 transition-colors">Status Banjir</a>
                 <a href="#about" class="text-[#3793e0] hover:text-blue-700 transition-colors">About</a>
-                <a href="#contact" class="text-[#3793e0] hover:text-blue-700 transition-colors">Contact</a>
+                <a href="/request-evakuasi" class="text-[#3793e0] hover:text-blue-700 transition-colors">Request Evakuasi</a>
             </div>
             <a href="/login" class="bg-[#3793e0] text-white px-6 py-2 rounded-full font-semibold hover:bg-blue-700 transition-all flex items-center">
                 <i class="fas fa-user-shield mr-2"></i>Admin Login

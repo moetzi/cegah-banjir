@@ -1,0 +1,4766 @@
+{
+  "monitoring_data": {
+    "2025-06-14": {
+      "21:00": {
+        "Pompa Air Dinoyo": {
+          "weather": "Hujan Sedang",
+          "water_level": 248,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Darmo Kali": {
+          "weather": "Cerah",
+          "water_level": 236,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Bratang": {
+          "weather": "Hujan Ringan",
+          "water_level": 218,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Flores": {
+          "weather": "Hujan Lebat",
+          "water_level": 271,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Keputran": {
+          "weather": "Cerah",
+          "water_level": 191,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Simolawang": {
+          "weather": "Hujan Ringan",
+          "water_level": 176,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Pesapen": {
+          "weather": "Cerah",
+          "water_level": 235,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kutisari пра": {
+          "weather": "Cerah",
+          "water_level": 282,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Mulyorejo": {
+          "weather": "Cerah",
+          "water_level": 238,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Gunung Sari I": {
+          "weather": "Hujan Ringan",
+          "water_level": 233,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kali Kepiting": {
+          "weather": "Berawan",
+          "water_level": 239,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Dharma Husada": {
+          "weather": "Cerah",
+          "water_level": 166,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kalidami Screw": {
+          "weather": "Hujan Ringan",
+          "water_level": 169,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Gunung Sari II": {
+          "weather": "Berawan",
+          "water_level": 207,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kali Kali Rungkut": {
+          "weather": "Cerah",
+          "water_level": 112,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Wonorejo I": {
+          "weather": "Berawan",
+          "water_level": 111,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Dupak Bandarejo": {
+          "weather": "Cerah",
+          "water_level": 147,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Semolowaru I": {
+          "weather": "Hujan Lebat",
+          "water_level": 288,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Kenari": {
+          "weather": "Cerah",
+          "water_level": 150,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Grahadi": {
+          "weather": "Cerah",
+          "water_level": 146,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Jagir Kalimir": {
+          "weather": "Cerah",
+          "water_level": 264,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Semolowaru II": {
+          "weather": "Cerah",
+          "water_level": 132,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Asem Jaya": {
+          "weather": "Cerah",
+          "water_level": 150,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Karimun Jawa": {
+          "weather": "Berawan",
+          "water_level": 157,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kalisari": {
+          "weather": "Cerah",
+          "water_level": 119,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Kalijudan": {
+          "weather": "Cerah",
+          "water_level": 246,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Boezem Kalidami I": {
+          "weather": "Berawan",
+          "water_level": 233,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kalibokor": {
+          "weather": "Cerah",
+          "water_level": 189,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Balong-Margomulyo": {
+          "weather": "Berawan",
+          "water_level": 293,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Gadukan": {
+          "weather": "Hujan Lebat",
+          "water_level": 166,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kebon Agung": {
+          "weather": "Hujan Ringan",
+          "water_level": 176,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Pandugo": {
+          "weather": "Cerah",
+          "water_level": 102,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Boezem Wonorejo": {
+          "weather": "Cerah",
+          "water_level": 155,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kedung Asem": {
+          "weather": "Hujan Ringan",
+          "water_level": 194,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Jemur Andayani": {
+          "weather": "Cerah",
+          "water_level": 208,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Jeblokan": {
+          "weather": "Cerah",
+          "water_level": 227,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Boezem Kalidami II": {
+          "weather": "Cerah",
+          "water_level": 118,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Mulyosari (Ring Road ITS)": {
+          "weather": "Cerah",
+          "water_level": 149,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Tambak Wedi": {
+          "weather": "Hujan Ringan",
+          "water_level": 164,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Boezem Moro Krembangan": {
+          "weather": "Hujan Ringan",
+          "water_level": 105,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Kenjeran 1": {
+          "weather": "Berawan",
+          "water_level": 230,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Medokan Semampir (SMPN 30)": {
+          "weather": "Cerah",
+          "water_level": 117,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Jemursari Prapen": {
+          "weather": "Hujan Ringan",
+          "water_level": 239,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Medokan Ayu-UPN": {
+          "weather": "Cerah",
+          "water_level": 180,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Boezem Kedurus": {
+          "weather": "Hujan Ringan",
+          "water_level": 238,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Wonorejo II": {
+          "weather": "Cerah",
+          "water_level": 262,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Bratang Lapangan": {
+          "weather": "Cerah",
+          "water_level": 293,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Greges": {
+          "weather": "Hujan Sedang",
+          "water_level": 128,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Balong": {
+          "weather": "Hujan Sedang",
+          "water_level": 236,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Boezem Morokrembangan II": {
+          "weather": "Hujan Lebat",
+          "water_level": 133,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Kenjeran Ken Park": {
+          "weather": "Berawan",
+          "water_level": 111,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Kenjeran II": {
+          "weather": "Hujan Lebat",
+          "water_level": 138,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Medokan Ayu Hilir": {
+          "weather": "Berawan",
+          "water_level": 188,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Jambangan": {
+          "weather": "Hujan Ringan",
+          "water_level": 249,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Ikan Mungsing": {
+          "weather": "Hujan Ringan",
+          "water_level": 295,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air BP2IP": {
+          "weather": "Hujan Ringan",
+          "water_level": 178,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kandangan": {
+          "weather": "Cerah",
+          "water_level": 282,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Petekan": {
+          "weather": "Berawan",
+          "water_level": 128,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Sumberrejo": {
+          "weather": "Hujan Sedang",
+          "water_level": 254,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Korem": {
+          "weather": "Cerah",
+          "water_level": 153,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Araya Onkologi": {
+          "weather": "Cerah",
+          "water_level": 174,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Wiyung": {
+          "weather": "Cerah",
+          "water_level": 171,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Underpass Satelit": {
+          "weather": "Cerah",
+          "water_level": 126,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air SWK Karah": {
+          "weather": "Cerah",
+          "water_level": 297,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Sawunggaling": {
+          "weather": "Hujan Ringan",
+          "water_level": 103,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Kebonsari": {
+          "weather": "Cerah",
+          "water_level": 276,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Pahlawan": {
+          "weather": "Cerah",
+          "water_level": 215,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Siola": {
+          "weather": "Cerah",
+          "water_level": 155,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Nias": {
+          "weather": "Cerah",
+          "water_level": 255,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Tambak Asri": {
+          "weather": "Hujan Ringan",
+          "water_level": 266,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Jawar Gendong": {
+          "weather": "Cerah",
+          "water_level": 195,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Margomulyo": {
+          "weather": "Cerah",
+          "water_level": 266,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Undaan": {
+          "weather": "Berawan",
+          "water_level": 196,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Gersikan": {
+          "weather": "Berawan",
+          "water_level": 186,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Merr": {
+          "weather": "Cerah",
+          "water_level": 286,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Bulak": {
+          "weather": "Hujan Sedang",
+          "water_level": 157,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kebraon": {
+          "weather": "Hujan Ringan",
+          "water_level": 168,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Boezem Aquatic": {
+          "weather": "Cerah",
+          "water_level": 217,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Bukit Barisan": {
+          "weather": "Cerah",
+          "water_level": 281,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        }
+      },
+      "21:01": {
+        "Pompa Air Dinoyo": {
+          "weather": "Hujan Sedang",
+          "water_level": 120,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Darmo Kali": {
+          "weather": "Hujan Lebat",
+          "water_level": 155,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Bratang": {
+          "weather": "Hujan Ringan",
+          "water_level": 226,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Flores": {
+          "weather": "Cerah",
+          "water_level": 300,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Keputran": {
+          "weather": "Cerah",
+          "water_level": 250,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Simolawang": {
+          "weather": "Hujan Ringan",
+          "water_level": 194,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Pesapen": {
+          "weather": "Berawan",
+          "water_level": 282,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Kutisari пра": {
+          "weather": "Cerah",
+          "water_level": 188,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Mulyorejo": {
+          "weather": "Hujan Ringan",
+          "water_level": 140,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Gunung Sari I": {
+          "weather": "Berawan",
+          "water_level": 138,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Kali Kepiting": {
+          "weather": "Cerah",
+          "water_level": 179,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Dharma Husada": {
+          "weather": "Berawan",
+          "water_level": 157,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kalidami Screw": {
+          "weather": "Hujan Sedang",
+          "water_level": 266,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Gunung Sari II": {
+          "weather": "Cerah",
+          "water_level": 288,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Kali Kali Rungkut": {
+          "weather": "Hujan Sedang",
+          "water_level": 256,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Wonorejo I": {
+          "weather": "Cerah",
+          "water_level": 251,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Dupak Bandarejo": {
+          "weather": "Hujan Ringan",
+          "water_level": 147,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Semolowaru I": {
+          "weather": "Berawan",
+          "water_level": 210,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kenari": {
+          "weather": "Berawan",
+          "water_level": 214,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Grahadi": {
+          "weather": "Hujan Sedang",
+          "water_level": 252,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Jagir Kalimir": {
+          "weather": "Cerah",
+          "water_level": 156,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Semolowaru II": {
+          "weather": "Cerah",
+          "water_level": 188,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Asem Jaya": {
+          "weather": "Hujan Lebat",
+          "water_level": 237,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Karimun Jawa": {
+          "weather": "Berawan",
+          "water_level": 130,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Kalisari": {
+          "weather": "Cerah",
+          "water_level": 292,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Kalijudan": {
+          "weather": "Hujan Sedang",
+          "water_level": 292,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Boezem Kalidami I": {
+          "weather": "Cerah",
+          "water_level": 193,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kalibokor": {
+          "weather": "Hujan Sedang",
+          "water_level": 300,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Balong-Margomulyo": {
+          "weather": "Hujan Ringan",
+          "water_level": 175,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Gadukan": {
+          "weather": "Cerah",
+          "water_level": 132,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Kebon Agung": {
+          "weather": "Hujan Ringan",
+          "water_level": 160,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Pandugo": {
+          "weather": "Hujan Ringan",
+          "water_level": 298,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Boezem Wonorejo": {
+          "weather": "Berawan",
+          "water_level": 252,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Kedung Asem": {
+          "weather": "Cerah",
+          "water_level": 286,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Jemur Andayani": {
+          "weather": "Hujan Ringan",
+          "water_level": 191,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Jeblokan": {
+          "weather": "Cerah",
+          "water_level": 139,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Boezem Kalidami II": {
+          "weather": "Cerah",
+          "water_level": 176,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Mulyosari (Ring Road ITS)": {
+          "weather": "Hujan Ringan",
+          "water_level": 247,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Tambak Wedi": {
+          "weather": "Hujan Ringan",
+          "water_level": 152,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Boezem Moro Krembangan": {
+          "weather": "Cerah",
+          "water_level": 297,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Kenjeran 1": {
+          "weather": "Hujan Ringan",
+          "water_level": 275,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Medokan Semampir (SMPN 30)": {
+          "weather": "Hujan Ringan",
+          "water_level": 271,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Jemursari Prapen": {
+          "weather": "Cerah",
+          "water_level": 182,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Medokan Ayu-UPN": {
+          "weather": "Hujan Ringan",
+          "water_level": 139,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Boezem Kedurus": {
+          "weather": "Cerah",
+          "water_level": 183,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Wonorejo II": {
+          "weather": "Cerah",
+          "water_level": 149,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Bratang Lapangan": {
+          "weather": "Hujan Ringan",
+          "water_level": 159,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Greges": {
+          "weather": "Cerah",
+          "water_level": 180,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Balong": {
+          "weather": "Berawan",
+          "water_level": 296,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Boezem Morokrembangan II": {
+          "weather": "Berawan",
+          "water_level": 134,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Kenjeran Ken Park": {
+          "weather": "Hujan Lebat",
+          "water_level": 163,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kenjeran II": {
+          "weather": "Cerah",
+          "water_level": 160,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Medokan Ayu Hilir": {
+          "weather": "Hujan Sedang",
+          "water_level": 116,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Jambangan": {
+          "weather": "Cerah",
+          "water_level": 166,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Ikan Mungsing": {
+          "weather": "Berawan",
+          "water_level": 287,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air BP2IP": {
+          "weather": "Berawan",
+          "water_level": 178,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kandangan": {
+          "weather": "Berawan",
+          "water_level": 106,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Petekan": {
+          "weather": "Berawan",
+          "water_level": 166,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Sumberrejo": {
+          "weather": "Berawan",
+          "water_level": 245,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Korem": {
+          "weather": "Cerah",
+          "water_level": 263,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Araya Onkologi": {
+          "weather": "Cerah",
+          "water_level": 225,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Wiyung": {
+          "weather": "Hujan Ringan",
+          "water_level": 144,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Underpass Satelit": {
+          "weather": "Hujan Ringan",
+          "water_level": 125,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air SWK Karah": {
+          "weather": "Cerah",
+          "water_level": 298,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Sawunggaling": {
+          "weather": "Cerah",
+          "water_level": 270,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Kebonsari": {
+          "weather": "Cerah",
+          "water_level": 163,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Pahlawan": {
+          "weather": "Cerah",
+          "water_level": 271,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Siola": {
+          "weather": "Cerah",
+          "water_level": 166,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Nias": {
+          "weather": "Berawan",
+          "water_level": 253,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Tambak Asri": {
+          "weather": "Hujan Sedang",
+          "water_level": 274,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Jawar Gendong": {
+          "weather": "Berawan",
+          "water_level": 102,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Margomulyo": {
+          "weather": "Cerah",
+          "water_level": 254,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Undaan": {
+          "weather": "Berawan",
+          "water_level": 175,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Gersikan": {
+          "weather": "Cerah",
+          "water_level": 182,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Merr": {
+          "weather": "Hujan Sedang",
+          "water_level": 241,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Bulak": {
+          "weather": "Cerah",
+          "water_level": 276,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Kebraon": {
+          "weather": "Cerah",
+          "water_level": 271,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Boezem Aquatic": {
+          "weather": "Hujan Lebat",
+          "water_level": 138,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Bukit Barisan": {
+          "weather": "Cerah",
+          "water_level": 263,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        }
+      },
+      "21:02": {
+        "Pompa Air Dinoyo": {
+          "weather": "Cerah",
+          "water_level": 155,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Darmo Kali": {
+          "weather": "Berawan",
+          "water_level": 219,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Bratang": {
+          "weather": "Hujan Lebat",
+          "water_level": 212,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Flores": {
+          "weather": "Cerah",
+          "water_level": 229,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Keputran": {
+          "weather": "Berawan",
+          "water_level": 138,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Simolawang": {
+          "weather": "Cerah",
+          "water_level": 137,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Pesapen": {
+          "weather": "Cerah",
+          "water_level": 279,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Kutisari пра": {
+          "weather": "Cerah",
+          "water_level": 274,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Mulyorejo": {
+          "weather": "Cerah",
+          "water_level": 284,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Gunung Sari I": {
+          "weather": "Hujan Sedang",
+          "water_level": 300,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Kali Kepiting": {
+          "weather": "Cerah",
+          "water_level": 144,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Dharma Husada": {
+          "weather": "Berawan",
+          "water_level": 119,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Kalidami Screw": {
+          "weather": "Cerah",
+          "water_level": 167,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Gunung Sari II": {
+          "weather": "Berawan",
+          "water_level": 133,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Kali Kali Rungkut": {
+          "weather": "Cerah",
+          "water_level": 137,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Wonorejo I": {
+          "weather": "Hujan Ringan",
+          "water_level": 276,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Dupak Bandarejo": {
+          "weather": "Hujan Sedang",
+          "water_level": 299,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Semolowaru I": {
+          "weather": "Hujan Ringan",
+          "water_level": 102,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Kenari": {
+          "weather": "Cerah",
+          "water_level": 255,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Grahadi": {
+          "weather": "Cerah",
+          "water_level": 257,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Jagir Kalimir": {
+          "weather": "Cerah",
+          "water_level": 135,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Semolowaru II": {
+          "weather": "Cerah",
+          "water_level": 110,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Asem Jaya": {
+          "weather": "Cerah",
+          "water_level": 249,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Karimun Jawa": {
+          "weather": "Berawan",
+          "water_level": 265,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Kalisari": {
+          "weather": "Cerah",
+          "water_level": 102,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Kalijudan": {
+          "weather": "Cerah",
+          "water_level": 220,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Boezem Kalidami I": {
+          "weather": "Hujan Ringan",
+          "water_level": 276,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Kalibokor": {
+          "weather": "Cerah",
+          "water_level": 233,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Balong-Margomulyo": {
+          "weather": "Cerah",
+          "water_level": 112,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Gadukan": {
+          "weather": "Hujan Ringan",
+          "water_level": 112,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Kebon Agung": {
+          "weather": "Hujan Lebat",
+          "water_level": 161,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Pandugo": {
+          "weather": "Cerah",
+          "water_level": 146,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Boezem Wonorejo": {
+          "weather": "Cerah",
+          "water_level": 206,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kedung Asem": {
+          "weather": "Hujan Ringan",
+          "water_level": 109,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Jemur Andayani": {
+          "weather": "Cerah",
+          "water_level": 258,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Jeblokan": {
+          "weather": "Cerah",
+          "water_level": 158,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Boezem Kalidami II": {
+          "weather": "Hujan Ringan",
+          "water_level": 159,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Mulyosari (Ring Road ITS)": {
+          "weather": "Cerah",
+          "water_level": 256,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Tambak Wedi": {
+          "weather": "Cerah",
+          "water_level": 152,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Boezem Moro Krembangan": {
+          "weather": "Hujan Sedang",
+          "water_level": 153,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kenjeran 1": {
+          "weather": "Cerah",
+          "water_level": 264,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Medokan Semampir (SMPN 30)": {
+          "weather": "Hujan Ringan",
+          "water_level": 272,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Jemursari Prapen": {
+          "weather": "Cerah",
+          "water_level": 283,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Medokan Ayu-UPN": {
+          "weather": "Hujan Lebat",
+          "water_level": 195,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Boezem Kedurus": {
+          "weather": "Hujan Lebat",
+          "water_level": 229,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Wonorejo II": {
+          "weather": "Cerah",
+          "water_level": 209,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Bratang Lapangan": {
+          "weather": "Cerah",
+          "water_level": 138,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Greges": {
+          "weather": "Berawan",
+          "water_level": 219,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Balong": {
+          "weather": "Cerah",
+          "water_level": 125,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Boezem Morokrembangan II": {
+          "weather": "Cerah",
+          "water_level": 176,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kenjeran Ken Park": {
+          "weather": "Cerah",
+          "water_level": 178,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kenjeran II": {
+          "weather": "Hujan Lebat",
+          "water_level": 140,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Medokan Ayu Hilir": {
+          "weather": "Hujan Ringan",
+          "water_level": 142,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Jambangan": {
+          "weather": "Cerah",
+          "water_level": 234,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Ikan Mungsing": {
+          "weather": "Cerah",
+          "water_level": 184,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air BP2IP": {
+          "weather": "Cerah",
+          "water_level": 232,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kandangan": {
+          "weather": "Cerah",
+          "water_level": 161,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Petekan": {
+          "weather": "Cerah",
+          "water_level": 167,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Sumberrejo": {
+          "weather": "Hujan Ringan",
+          "water_level": 248,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Korem": {
+          "weather": "Hujan Ringan",
+          "water_level": 189,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Araya Onkologi": {
+          "weather": "Hujan Lebat",
+          "water_level": 238,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Wiyung": {
+          "weather": "Hujan Sedang",
+          "water_level": 171,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Underpass Satelit": {
+          "weather": "Hujan Sedang",
+          "water_level": 235,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air SWK Karah": {
+          "weather": "Hujan Sedang",
+          "water_level": 298,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Sawunggaling": {
+          "weather": "Cerah",
+          "water_level": 103,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Kebonsari": {
+          "weather": "Cerah",
+          "water_level": 266,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Pahlawan": {
+          "weather": "Berawan",
+          "water_level": 250,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Siola": {
+          "weather": "Cerah",
+          "water_level": 201,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Nias": {
+          "weather": "Hujan Ringan",
+          "water_level": 115,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Tambak Asri": {
+          "weather": "Cerah",
+          "water_level": 184,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Jawar Gendong": {
+          "weather": "Hujan Ringan",
+          "water_level": 105,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Margomulyo": {
+          "weather": "Hujan Ringan",
+          "water_level": 110,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Undaan": {
+          "weather": "Cerah",
+          "water_level": 248,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Gersikan": {
+          "weather": "Cerah",
+          "water_level": 275,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Merr": {
+          "weather": "Cerah",
+          "water_level": 198,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Bulak": {
+          "weather": "Cerah",
+          "water_level": 123,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Kebraon": {
+          "weather": "Berawan",
+          "water_level": 261,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Boezem Aquatic": {
+          "weather": "Berawan",
+          "water_level": 150,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Bukit Barisan": {
+          "weather": "Berawan",
+          "water_level": 112,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        }
+      },
+      "21:03": {
+        "Pompa Air Dinoyo": {
+          "weather": "Cerah",
+          "water_level": 217,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Darmo Kali": {
+          "weather": "Cerah",
+          "water_level": 198,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Bratang": {
+          "weather": "Hujan Ringan",
+          "water_level": 224,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Flores": {
+          "weather": "Cerah",
+          "water_level": 126,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Keputran": {
+          "weather": "Hujan Ringan",
+          "water_level": 131,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Simolawang": {
+          "weather": "Cerah",
+          "water_level": 227,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Pesapen": {
+          "weather": "Hujan Ringan",
+          "water_level": 147,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Kutisari пра": {
+          "weather": "Hujan Ringan",
+          "water_level": 160,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Mulyorejo": {
+          "weather": "Cerah",
+          "water_level": 220,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Gunung Sari I": {
+          "weather": "Cerah",
+          "water_level": 260,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Kali Kepiting": {
+          "weather": "Cerah",
+          "water_level": 192,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Dharma Husada": {
+          "weather": "Cerah",
+          "water_level": 252,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Kalidami Screw": {
+          "weather": "Berawan",
+          "water_level": 123,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Gunung Sari II": {
+          "weather": "Hujan Ringan",
+          "water_level": 179,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kali Kali Rungkut": {
+          "weather": "Hujan Ringan",
+          "water_level": 128,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Wonorejo I": {
+          "weather": "Cerah",
+          "water_level": 284,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Dupak Bandarejo": {
+          "weather": "Berawan",
+          "water_level": 296,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Semolowaru I": {
+          "weather": "Hujan Sedang",
+          "water_level": 288,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Kenari": {
+          "weather": "Cerah",
+          "water_level": 167,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Grahadi": {
+          "weather": "Cerah",
+          "water_level": 286,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Jagir Kalimir": {
+          "weather": "Cerah",
+          "water_level": 216,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Semolowaru II": {
+          "weather": "Cerah",
+          "water_level": 262,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Asem Jaya": {
+          "weather": "Berawan",
+          "water_level": 177,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Karimun Jawa": {
+          "weather": "Cerah",
+          "water_level": 160,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kalisari": {
+          "weather": "Hujan Ringan",
+          "water_level": 218,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kalijudan": {
+          "weather": "Hujan Sedang",
+          "water_level": 210,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Boezem Kalidami I": {
+          "weather": "Cerah",
+          "water_level": 168,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kalibokor": {
+          "weather": "Berawan",
+          "water_level": 247,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Balong-Margomulyo": {
+          "weather": "Cerah",
+          "water_level": 141,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Gadukan": {
+          "weather": "Berawan",
+          "water_level": 209,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kebon Agung": {
+          "weather": "Hujan Ringan",
+          "water_level": 130,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Pandugo": {
+          "weather": "Cerah",
+          "water_level": 191,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Boezem Wonorejo": {
+          "weather": "Hujan Ringan",
+          "water_level": 114,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Kedung Asem": {
+          "weather": "Hujan Ringan",
+          "water_level": 151,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Jemur Andayani": {
+          "weather": "Berawan",
+          "water_level": 129,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Jeblokan": {
+          "weather": "Cerah",
+          "water_level": 178,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Boezem Kalidami II": {
+          "weather": "Cerah",
+          "water_level": 286,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Mulyosari (Ring Road ITS)": {
+          "weather": "Cerah",
+          "water_level": 134,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Tambak Wedi": {
+          "weather": "Hujan Sedang",
+          "water_level": 283,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Boezem Moro Krembangan": {
+          "weather": "Cerah",
+          "water_level": 112,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Kenjeran 1": {
+          "weather": "Cerah",
+          "water_level": 269,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Medokan Semampir (SMPN 30)": {
+          "weather": "Hujan Ringan",
+          "water_level": 102,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Jemursari Prapen": {
+          "weather": "Berawan",
+          "water_level": 272,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Medokan Ayu-UPN": {
+          "weather": "Cerah",
+          "water_level": 175,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Boezem Kedurus": {
+          "weather": "Cerah",
+          "water_level": 214,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Wonorejo II": {
+          "weather": "Hujan Ringan",
+          "water_level": 173,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Bratang Lapangan": {
+          "weather": "Hujan Sedang",
+          "water_level": 210,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Greges": {
+          "weather": "Berawan",
+          "water_level": 291,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Balong": {
+          "weather": "Berawan",
+          "water_level": 291,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Boezem Morokrembangan II": {
+          "weather": "Cerah",
+          "water_level": 283,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Kenjeran Ken Park": {
+          "weather": "Hujan Ringan",
+          "water_level": 165,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kenjeran II": {
+          "weather": "Cerah",
+          "water_level": 131,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Medokan Ayu Hilir": {
+          "weather": "Cerah",
+          "water_level": 266,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Jambangan": {
+          "weather": "Hujan Ringan",
+          "water_level": 147,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Ikan Mungsing": {
+          "weather": "Berawan",
+          "water_level": 225,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air BP2IP": {
+          "weather": "Cerah",
+          "water_level": 230,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kandangan": {
+          "weather": "Hujan Ringan",
+          "water_level": 267,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Petekan": {
+          "weather": "Cerah",
+          "water_level": 260,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Sumberrejo": {
+          "weather": "Hujan Ringan",
+          "water_level": 129,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Korem": {
+          "weather": "Berawan",
+          "water_level": 268,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Araya Onkologi": {
+          "weather": "Berawan",
+          "water_level": 163,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Wiyung": {
+          "weather": "Cerah",
+          "water_level": 225,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Underpass Satelit": {
+          "weather": "Hujan Ringan",
+          "water_level": 240,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air SWK Karah": {
+          "weather": "Hujan Ringan",
+          "water_level": 177,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Sawunggaling": {
+          "weather": "Hujan Sedang",
+          "water_level": 274,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Kebonsari": {
+          "weather": "Berawan",
+          "water_level": 241,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Pahlawan": {
+          "weather": "Cerah",
+          "water_level": 151,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Siola": {
+          "weather": "Cerah",
+          "water_level": 217,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Nias": {
+          "weather": "Cerah",
+          "water_level": 271,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Tambak Asri": {
+          "weather": "Hujan Lebat",
+          "water_level": 130,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Jawar Gendong": {
+          "weather": "Hujan Ringan",
+          "water_level": 187,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Margomulyo": {
+          "weather": "Cerah",
+          "water_level": 232,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Undaan": {
+          "weather": "Cerah",
+          "water_level": 223,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Gersikan": {
+          "weather": "Hujan Lebat",
+          "water_level": 178,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Merr": {
+          "weather": "Berawan",
+          "water_level": 158,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Bulak": {
+          "weather": "Hujan Lebat",
+          "water_level": 247,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kebraon": {
+          "weather": "Hujan Ringan",
+          "water_level": 174,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Boezem Aquatic": {
+          "weather": "Cerah",
+          "water_level": 150,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Bukit Barisan": {
+          "weather": "Cerah",
+          "water_level": 128,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        }
+      },
+      "21:04": {
+        "Pompa Air Dinoyo": {
+          "weather": "Berawan",
+          "water_level": 234,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Darmo Kali": {
+          "weather": "Hujan Lebat",
+          "water_level": 154,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Bratang": {
+          "weather": "Berawan",
+          "water_level": 193,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Flores": {
+          "weather": "Cerah",
+          "water_level": 167,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Keputran": {
+          "weather": "Cerah",
+          "water_level": 175,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Simolawang": {
+          "weather": "Cerah",
+          "water_level": 158,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Pesapen": {
+          "weather": "Hujan Sedang",
+          "water_level": 227,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kutisari пра": {
+          "weather": "Berawan",
+          "water_level": 266,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Mulyorejo": {
+          "weather": "Hujan Ringan",
+          "water_level": 300,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Gunung Sari I": {
+          "weather": "Cerah",
+          "water_level": 245,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kali Kepiting": {
+          "weather": "Cerah",
+          "water_level": 150,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Dharma Husada": {
+          "weather": "Berawan",
+          "water_level": 193,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kalidami Screw": {
+          "weather": "Cerah",
+          "water_level": 148,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Gunung Sari II": {
+          "weather": "Hujan Ringan",
+          "water_level": 223,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kali Kali Rungkut": {
+          "weather": "Hujan Lebat",
+          "water_level": 144,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Wonorejo I": {
+          "weather": "Cerah",
+          "water_level": 257,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Dupak Bandarejo": {
+          "weather": "Hujan Ringan",
+          "water_level": 192,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Semolowaru I": {
+          "weather": "Cerah",
+          "water_level": 276,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Kenari": {
+          "weather": "Cerah",
+          "water_level": 266,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Grahadi": {
+          "weather": "Berawan",
+          "water_level": 195,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Jagir Kalimir": {
+          "weather": "Hujan Lebat",
+          "water_level": 211,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Semolowaru II": {
+          "weather": "Cerah",
+          "water_level": 212,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Asem Jaya": {
+          "weather": "Cerah",
+          "water_level": 106,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Karimun Jawa": {
+          "weather": "Cerah",
+          "water_level": 255,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Kalisari": {
+          "weather": "Cerah",
+          "water_level": 157,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kalijudan": {
+          "weather": "Cerah",
+          "water_level": 229,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Boezem Kalidami I": {
+          "weather": "Hujan Ringan",
+          "water_level": 222,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kalibokor": {
+          "weather": "Hujan Lebat",
+          "water_level": 158,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Balong-Margomulyo": {
+          "weather": "Cerah",
+          "water_level": 242,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Gadukan": {
+          "weather": "Cerah",
+          "water_level": 251,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Kebon Agung": {
+          "weather": "Hujan Ringan",
+          "water_level": 132,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Pandugo": {
+          "weather": "Hujan Ringan",
+          "water_level": 234,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Boezem Wonorejo": {
+          "weather": "Cerah",
+          "water_level": 201,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kedung Asem": {
+          "weather": "Cerah",
+          "water_level": 173,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Jemur Andayani": {
+          "weather": "Hujan Ringan",
+          "water_level": 119,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Jeblokan": {
+          "weather": "Hujan Lebat",
+          "water_level": 297,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Boezem Kalidami II": {
+          "weather": "Cerah",
+          "water_level": 158,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Mulyosari (Ring Road ITS)": {
+          "weather": "Hujan Ringan",
+          "water_level": 116,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Tambak Wedi": {
+          "weather": "Cerah",
+          "water_level": 185,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Boezem Moro Krembangan": {
+          "weather": "Cerah",
+          "water_level": 276,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Kenjeran 1": {
+          "weather": "Hujan Ringan",
+          "water_level": 125,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Medokan Semampir (SMPN 30)": {
+          "weather": "Cerah",
+          "water_level": 296,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Jemursari Prapen": {
+          "weather": "Berawan",
+          "water_level": 238,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Medokan Ayu-UPN": {
+          "weather": "Cerah",
+          "water_level": 124,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Boezem Kedurus": {
+          "weather": "Hujan Sedang",
+          "water_level": 293,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Wonorejo II": {
+          "weather": "Cerah",
+          "water_level": 175,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Bratang Lapangan": {
+          "weather": "Cerah",
+          "water_level": 171,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Greges": {
+          "weather": "Hujan Sedang",
+          "water_level": 246,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Balong": {
+          "weather": "Hujan Ringan",
+          "water_level": 165,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Boezem Morokrembangan II": {
+          "weather": "Cerah",
+          "water_level": 278,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Kenjeran Ken Park": {
+          "weather": "Hujan Lebat",
+          "water_level": 250,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Kenjeran II": {
+          "weather": "Hujan Ringan",
+          "water_level": 141,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Medokan Ayu Hilir": {
+          "weather": "Berawan",
+          "water_level": 198,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Jambangan": {
+          "weather": "Berawan",
+          "water_level": 292,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Ikan Mungsing": {
+          "weather": "Berawan",
+          "water_level": 197,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air BP2IP": {
+          "weather": "Cerah",
+          "water_level": 285,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Kandangan": {
+          "weather": "Berawan",
+          "water_level": 133,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Petekan": {
+          "weather": "Hujan Lebat",
+          "water_level": 112,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Sumberrejo": {
+          "weather": "Cerah",
+          "water_level": 272,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Korem": {
+          "weather": "Hujan Ringan",
+          "water_level": 244,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Araya Onkologi": {
+          "weather": "Berawan",
+          "water_level": 144,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Wiyung": {
+          "weather": "Berawan",
+          "water_level": 196,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Underpass Satelit": {
+          "weather": "Cerah",
+          "water_level": 263,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air SWK Karah": {
+          "weather": "Cerah",
+          "water_level": 134,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Sawunggaling": {
+          "weather": "Hujan Ringan",
+          "water_level": 237,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kebonsari": {
+          "weather": "Hujan Lebat",
+          "water_level": 225,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Pahlawan": {
+          "weather": "Berawan",
+          "water_level": 287,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Siola": {
+          "weather": "Hujan Sedang",
+          "water_level": 282,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Nias": {
+          "weather": "Cerah",
+          "water_level": 195,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Tambak Asri": {
+          "weather": "Hujan Lebat",
+          "water_level": 171,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Jawar Gendong": {
+          "weather": "Cerah",
+          "water_level": 250,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Margomulyo": {
+          "weather": "Berawan",
+          "water_level": 222,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Undaan": {
+          "weather": "Cerah",
+          "water_level": 184,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Gersikan": {
+          "weather": "Hujan Ringan",
+          "water_level": 128,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Merr": {
+          "weather": "Cerah",
+          "water_level": 150,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Bulak": {
+          "weather": "Cerah",
+          "water_level": 240,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kebraon": {
+          "weather": "Hujan Ringan",
+          "water_level": 138,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Boezem Aquatic": {
+          "weather": "Cerah",
+          "water_level": 153,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Bukit Barisan": {
+          "weather": "Cerah",
+          "water_level": 230,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        }
+      },
+      "21:05": {
+        "Pompa Air Dinoyo": {
+          "weather": "Hujan Lebat",
+          "water_level": 292,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Darmo Kali": {
+          "weather": "Hujan Lebat",
+          "water_level": 200,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Bratang": {
+          "weather": "Cerah",
+          "water_level": 125,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Flores": {
+          "weather": "Berawan",
+          "water_level": 236,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Keputran": {
+          "weather": "Hujan Ringan",
+          "water_level": 246,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Simolawang": {
+          "weather": "Hujan Ringan",
+          "water_level": 294,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Pesapen": {
+          "weather": "Cerah",
+          "water_level": 188,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kutisari пра": {
+          "weather": "Cerah",
+          "water_level": 234,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Mulyorejo": {
+          "weather": "Cerah",
+          "water_level": 295,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Gunung Sari I": {
+          "weather": "Berawan",
+          "water_level": 188,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kali Kepiting": {
+          "weather": "Cerah",
+          "water_level": 243,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Dharma Husada": {
+          "weather": "Berawan",
+          "water_level": 257,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Kalidami Screw": {
+          "weather": "Cerah",
+          "water_level": 102,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Gunung Sari II": {
+          "weather": "Berawan",
+          "water_level": 164,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kali Kali Rungkut": {
+          "weather": "Cerah",
+          "water_level": 174,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Wonorejo I": {
+          "weather": "Cerah",
+          "water_level": 118,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Dupak Bandarejo": {
+          "weather": "Cerah",
+          "water_level": 212,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Semolowaru I": {
+          "weather": "Hujan Lebat",
+          "water_level": 152,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kenari": {
+          "weather": "Berawan",
+          "water_level": 128,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Grahadi": {
+          "weather": "Berawan",
+          "water_level": 109,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Jagir Kalimir": {
+          "weather": "Berawan",
+          "water_level": 149,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Semolowaru II": {
+          "weather": "Hujan Ringan",
+          "water_level": 207,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Asem Jaya": {
+          "weather": "Berawan",
+          "water_level": 146,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Karimun Jawa": {
+          "weather": "Cerah",
+          "water_level": 274,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Kalisari": {
+          "weather": "Hujan Ringan",
+          "water_level": 122,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Kalijudan": {
+          "weather": "Cerah",
+          "water_level": 172,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Boezem Kalidami I": {
+          "weather": "Cerah",
+          "water_level": 107,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Kalibokor": {
+          "weather": "Berawan",
+          "water_level": 171,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Balong-Margomulyo": {
+          "weather": "Hujan Sedang",
+          "water_level": 114,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Gadukan": {
+          "weather": "Hujan Lebat",
+          "water_level": 285,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Kebon Agung": {
+          "weather": "Cerah",
+          "water_level": 201,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Pandugo": {
+          "weather": "Hujan Ringan",
+          "water_level": 241,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Boezem Wonorejo": {
+          "weather": "Hujan Sedang",
+          "water_level": 243,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kedung Asem": {
+          "weather": "Hujan Lebat",
+          "water_level": 275,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Jemur Andayani": {
+          "weather": "Berawan",
+          "water_level": 207,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Jeblokan": {
+          "weather": "Cerah",
+          "water_level": 268,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Boezem Kalidami II": {
+          "weather": "Hujan Lebat",
+          "water_level": 201,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Mulyosari (Ring Road ITS)": {
+          "weather": "Cerah",
+          "water_level": 161,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Tambak Wedi": {
+          "weather": "Cerah",
+          "water_level": 212,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Boezem Moro Krembangan": {
+          "weather": "Hujan Lebat",
+          "water_level": 145,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Kenjeran 1": {
+          "weather": "Hujan Ringan",
+          "water_level": 263,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Medokan Semampir (SMPN 30)": {
+          "weather": "Cerah",
+          "water_level": 220,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Jemursari Prapen": {
+          "weather": "Berawan",
+          "water_level": 172,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Medokan Ayu-UPN": {
+          "weather": "Cerah",
+          "water_level": 124,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Boezem Kedurus": {
+          "weather": "Hujan Ringan",
+          "water_level": 105,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Wonorejo II": {
+          "weather": "Cerah",
+          "water_level": 232,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Bratang Lapangan": {
+          "weather": "Cerah",
+          "water_level": 140,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Greges": {
+          "weather": "Cerah",
+          "water_level": 226,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Balong": {
+          "weather": "Cerah",
+          "water_level": 124,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Boezem Morokrembangan II": {
+          "weather": "Cerah",
+          "water_level": 117,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Kenjeran Ken Park": {
+          "weather": "Cerah",
+          "water_level": 227,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kenjeran II": {
+          "weather": "Cerah",
+          "water_level": 176,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Medokan Ayu Hilir": {
+          "weather": "Cerah",
+          "water_level": 167,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Jambangan": {
+          "weather": "Hujan Ringan",
+          "water_level": 157,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Ikan Mungsing": {
+          "weather": "Hujan Lebat",
+          "water_level": 181,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air BP2IP": {
+          "weather": "Hujan Lebat",
+          "water_level": 191,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kandangan": {
+          "weather": "Cerah",
+          "water_level": 293,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Petekan": {
+          "weather": "Berawan",
+          "water_level": 189,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Sumberrejo": {
+          "weather": "Berawan",
+          "water_level": 146,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Korem": {
+          "weather": "Cerah",
+          "water_level": 184,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Araya Onkologi": {
+          "weather": "Cerah",
+          "water_level": 243,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Wiyung": {
+          "weather": "Cerah",
+          "water_level": 245,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Underpass Satelit": {
+          "weather": "Hujan Lebat",
+          "water_level": 260,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air SWK Karah": {
+          "weather": "Berawan",
+          "water_level": 236,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Sawunggaling": {
+          "weather": "Berawan",
+          "water_level": 257,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Kebonsari": {
+          "weather": "Hujan Lebat",
+          "water_level": 289,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Pahlawan": {
+          "weather": "Hujan Lebat",
+          "water_level": 135,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Siola": {
+          "weather": "Hujan Ringan",
+          "water_level": 132,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Nias": {
+          "weather": "Cerah",
+          "water_level": 172,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Tambak Asri": {
+          "weather": "Berawan",
+          "water_level": 278,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Jawar Gendong": {
+          "weather": "Berawan",
+          "water_level": 136,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Margomulyo": {
+          "weather": "Cerah",
+          "water_level": 191,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Undaan": {
+          "weather": "Berawan",
+          "water_level": 160,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Gersikan": {
+          "weather": "Berawan",
+          "water_level": 131,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Merr": {
+          "weather": "Berawan",
+          "water_level": 136,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Bulak": {
+          "weather": "Cerah",
+          "water_level": 197,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kebraon": {
+          "weather": "Cerah",
+          "water_level": 199,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Boezem Aquatic": {
+          "weather": "Cerah",
+          "water_level": 212,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Bukit Barisan": {
+          "weather": "Cerah",
+          "water_level": 141,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        }
+      },
+      "21:06": {
+        "Pompa Air Dinoyo": {
+          "weather": "Cerah",
+          "water_level": 185,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Darmo Kali": {
+          "weather": "Cerah",
+          "water_level": 128,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Bratang": {
+          "weather": "Cerah",
+          "water_level": 290,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Flores": {
+          "weather": "Cerah",
+          "water_level": 260,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Keputran": {
+          "weather": "Berawan",
+          "water_level": 300,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Simolawang": {
+          "weather": "Hujan Sedang",
+          "water_level": 204,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Pesapen": {
+          "weather": "Cerah",
+          "water_level": 294,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Kutisari пра": {
+          "weather": "Hujan Sedang",
+          "water_level": 102,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Mulyorejo": {
+          "weather": "Hujan Ringan",
+          "water_level": 193,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Gunung Sari I": {
+          "weather": "Cerah",
+          "water_level": 235,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kali Kepiting": {
+          "weather": "Cerah",
+          "water_level": 193,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Dharma Husada": {
+          "weather": "Hujan Ringan",
+          "water_level": 300,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Kalidami Screw": {
+          "weather": "Cerah",
+          "water_level": 247,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Gunung Sari II": {
+          "weather": "Hujan Ringan",
+          "water_level": 181,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kali Kali Rungkut": {
+          "weather": "Hujan Ringan",
+          "water_level": 166,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Wonorejo I": {
+          "weather": "Cerah",
+          "water_level": 132,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Dupak Bandarejo": {
+          "weather": "Hujan Lebat",
+          "water_level": 265,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Semolowaru I": {
+          "weather": "Hujan Sedang",
+          "water_level": 192,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kenari": {
+          "weather": "Hujan Ringan",
+          "water_level": 207,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Grahadi": {
+          "weather": "Hujan Lebat",
+          "water_level": 243,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Jagir Kalimir": {
+          "weather": "Berawan",
+          "water_level": 247,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Semolowaru II": {
+          "weather": "Hujan Lebat",
+          "water_level": 152,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Asem Jaya": {
+          "weather": "Cerah",
+          "water_level": 152,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Karimun Jawa": {
+          "weather": "Berawan",
+          "water_level": 100,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Kalisari": {
+          "weather": "Hujan Ringan",
+          "water_level": 120,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Kalijudan": {
+          "weather": "Hujan Ringan",
+          "water_level": 188,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Boezem Kalidami I": {
+          "weather": "Hujan Lebat",
+          "water_level": 112,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Kalibokor": {
+          "weather": "Hujan Lebat",
+          "water_level": 218,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Balong-Margomulyo": {
+          "weather": "Berawan",
+          "water_level": 178,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Gadukan": {
+          "weather": "Cerah",
+          "water_level": 123,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Kebon Agung": {
+          "weather": "Cerah",
+          "water_level": 259,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Pandugo": {
+          "weather": "Cerah",
+          "water_level": 247,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Boezem Wonorejo": {
+          "weather": "Cerah",
+          "water_level": 269,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Kedung Asem": {
+          "weather": "Hujan Lebat",
+          "water_level": 169,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Jemur Andayani": {
+          "weather": "Cerah",
+          "water_level": 134,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Jeblokan": {
+          "weather": "Hujan Ringan",
+          "water_level": 110,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Boezem Kalidami II": {
+          "weather": "Hujan Ringan",
+          "water_level": 153,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Mulyosari (Ring Road ITS)": {
+          "weather": "Hujan Sedang",
+          "water_level": 167,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Tambak Wedi": {
+          "weather": "Berawan",
+          "water_level": 230,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Boezem Moro Krembangan": {
+          "weather": "Cerah",
+          "water_level": 124,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Kenjeran 1": {
+          "weather": "Cerah",
+          "water_level": 264,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Medokan Semampir (SMPN 30)": {
+          "weather": "Cerah",
+          "water_level": 253,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Jemursari Prapen": {
+          "weather": "Hujan Ringan",
+          "water_level": 187,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Medokan Ayu-UPN": {
+          "weather": "Cerah",
+          "water_level": 174,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Boezem Kedurus": {
+          "weather": "Hujan Ringan",
+          "water_level": 148,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Wonorejo II": {
+          "weather": "Cerah",
+          "water_level": 204,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Bratang Lapangan": {
+          "weather": "Berawan",
+          "water_level": 191,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Greges": {
+          "weather": "Hujan Ringan",
+          "water_level": 215,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Balong": {
+          "weather": "Hujan Sedang",
+          "water_level": 248,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Boezem Morokrembangan II": {
+          "weather": "Berawan",
+          "water_level": 112,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Kenjeran Ken Park": {
+          "weather": "Hujan Lebat",
+          "water_level": 227,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kenjeran II": {
+          "weather": "Cerah",
+          "water_level": 160,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Medokan Ayu Hilir": {
+          "weather": "Hujan Sedang",
+          "water_level": 261,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Jambangan": {
+          "weather": "Cerah",
+          "water_level": 189,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Ikan Mungsing": {
+          "weather": "Hujan Lebat",
+          "water_level": 294,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air BP2IP": {
+          "weather": "Cerah",
+          "water_level": 290,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Kandangan": {
+          "weather": "Hujan Ringan",
+          "water_level": 295,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Petekan": {
+          "weather": "Hujan Ringan",
+          "water_level": 147,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Sumberrejo": {
+          "weather": "Hujan Ringan",
+          "water_level": 197,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Korem": {
+          "weather": "Hujan Lebat",
+          "water_level": 162,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Araya Onkologi": {
+          "weather": "Berawan",
+          "water_level": 233,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Wiyung": {
+          "weather": "Cerah",
+          "water_level": 107,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Underpass Satelit": {
+          "weather": "Cerah",
+          "water_level": 284,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air SWK Karah": {
+          "weather": "Hujan Ringan",
+          "water_level": 238,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Sawunggaling": {
+          "weather": "Berawan",
+          "water_level": 225,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kebonsari": {
+          "weather": "Hujan Lebat",
+          "water_level": 209,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Pahlawan": {
+          "weather": "Cerah",
+          "water_level": 249,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Siola": {
+          "weather": "Cerah",
+          "water_level": 268,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Nias": {
+          "weather": "Hujan Sedang",
+          "water_level": 129,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Tambak Asri": {
+          "weather": "Hujan Lebat",
+          "water_level": 255,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Jawar Gendong": {
+          "weather": "Cerah",
+          "water_level": 149,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Margomulyo": {
+          "weather": "Cerah",
+          "water_level": 182,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Undaan": {
+          "weather": "Berawan",
+          "water_level": 110,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Gersikan": {
+          "weather": "Hujan Ringan",
+          "water_level": 131,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Merr": {
+          "weather": "Hujan Ringan",
+          "water_level": 294,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Bulak": {
+          "weather": "Cerah",
+          "water_level": 127,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Kebraon": {
+          "weather": "Hujan Sedang",
+          "water_level": 155,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Boezem Aquatic": {
+          "weather": "Hujan Ringan",
+          "water_level": 116,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Bukit Barisan": {
+          "weather": "Hujan Ringan",
+          "water_level": 237,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        }
+      },
+      "21:07": {
+        "Pompa Air Dinoyo": {
+          "weather": "Hujan Sedang",
+          "water_level": 222,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Darmo Kali": {
+          "weather": "Cerah",
+          "water_level": 294,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Bratang": {
+          "weather": "Cerah",
+          "water_level": 284,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Flores": {
+          "weather": "Cerah",
+          "water_level": 115,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Keputran": {
+          "weather": "Cerah",
+          "water_level": 264,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Simolawang": {
+          "weather": "Berawan",
+          "water_level": 229,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Pesapen": {
+          "weather": "Hujan Ringan",
+          "water_level": 176,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kutisari пра": {
+          "weather": "Cerah",
+          "water_level": 154,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Mulyorejo": {
+          "weather": "Berawan",
+          "water_level": 198,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Gunung Sari I": {
+          "weather": "Cerah",
+          "water_level": 115,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Kali Kepiting": {
+          "weather": "Hujan Ringan",
+          "water_level": 113,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Dharma Husada": {
+          "weather": "Berawan",
+          "water_level": 172,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kalidami Screw": {
+          "weather": "Hujan Sedang",
+          "water_level": 164,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Gunung Sari II": {
+          "weather": "Hujan Ringan",
+          "water_level": 134,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Kali Kali Rungkut": {
+          "weather": "Hujan Lebat",
+          "water_level": 214,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Wonorejo I": {
+          "weather": "Cerah",
+          "water_level": 156,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Dupak Bandarejo": {
+          "weather": "Cerah",
+          "water_level": 266,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Semolowaru I": {
+          "weather": "Cerah",
+          "water_level": 242,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kenari": {
+          "weather": "Cerah",
+          "water_level": 286,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Grahadi": {
+          "weather": "Berawan",
+          "water_level": 234,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Jagir Kalimir": {
+          "weather": "Cerah",
+          "water_level": 175,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Semolowaru II": {
+          "weather": "Cerah",
+          "water_level": 299,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Asem Jaya": {
+          "weather": "Hujan Ringan",
+          "water_level": 299,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Karimun Jawa": {
+          "weather": "Hujan Ringan",
+          "water_level": 290,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Kalisari": {
+          "weather": "Hujan Sedang",
+          "water_level": 102,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Kalijudan": {
+          "weather": "Cerah",
+          "water_level": 275,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Boezem Kalidami I": {
+          "weather": "Hujan Sedang",
+          "water_level": 213,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kalibokor": {
+          "weather": "Cerah",
+          "water_level": 125,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Balong-Margomulyo": {
+          "weather": "Hujan Ringan",
+          "water_level": 227,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Gadukan": {
+          "weather": "Cerah",
+          "water_level": 250,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Kebon Agung": {
+          "weather": "Berawan",
+          "water_level": 172,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Pandugo": {
+          "weather": "Cerah",
+          "water_level": 102,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Boezem Wonorejo": {
+          "weather": "Cerah",
+          "water_level": 244,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kedung Asem": {
+          "weather": "Cerah",
+          "water_level": 152,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Jemur Andayani": {
+          "weather": "Hujan Ringan",
+          "water_level": 250,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Jeblokan": {
+          "weather": "Berawan",
+          "water_level": 210,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Boezem Kalidami II": {
+          "weather": "Cerah",
+          "water_level": 277,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Mulyosari (Ring Road ITS)": {
+          "weather": "Cerah",
+          "water_level": 172,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Tambak Wedi": {
+          "weather": "Hujan Sedang",
+          "water_level": 265,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Boezem Moro Krembangan": {
+          "weather": "Cerah",
+          "water_level": 297,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Kenjeran 1": {
+          "weather": "Berawan",
+          "water_level": 183,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Medokan Semampir (SMPN 30)": {
+          "weather": "Cerah",
+          "water_level": 152,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Jemursari Prapen": {
+          "weather": "Hujan Ringan",
+          "water_level": 210,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Medokan Ayu-UPN": {
+          "weather": "Cerah",
+          "water_level": 136,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Boezem Kedurus": {
+          "weather": "Hujan Ringan",
+          "water_level": 275,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Wonorejo II": {
+          "weather": "Hujan Ringan",
+          "water_level": 236,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Bratang Lapangan": {
+          "weather": "Hujan Sedang",
+          "water_level": 224,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Greges": {
+          "weather": "Cerah",
+          "water_level": 140,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Balong": {
+          "weather": "Cerah",
+          "water_level": 238,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Boezem Morokrembangan II": {
+          "weather": "Berawan",
+          "water_level": 126,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Kenjeran Ken Park": {
+          "weather": "Cerah",
+          "water_level": 172,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kenjeran II": {
+          "weather": "Cerah",
+          "water_level": 263,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Medokan Ayu Hilir": {
+          "weather": "Hujan Sedang",
+          "water_level": 250,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Jambangan": {
+          "weather": "Hujan Sedang",
+          "water_level": 200,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Ikan Mungsing": {
+          "weather": "Berawan",
+          "water_level": 243,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air BP2IP": {
+          "weather": "Cerah",
+          "water_level": 238,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kandangan": {
+          "weather": "Hujan Lebat",
+          "water_level": 211,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Petekan": {
+          "weather": "Hujan Sedang",
+          "water_level": 151,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Sumberrejo": {
+          "weather": "Hujan Sedang",
+          "water_level": 219,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Korem": {
+          "weather": "Cerah",
+          "water_level": 264,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Araya Onkologi": {
+          "weather": "Berawan",
+          "water_level": 240,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Wiyung": {
+          "weather": "Hujan Lebat",
+          "water_level": 200,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Underpass Satelit": {
+          "weather": "Cerah",
+          "water_level": 141,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air SWK Karah": {
+          "weather": "Hujan Ringan",
+          "water_level": 156,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Sawunggaling": {
+          "weather": "Berawan",
+          "water_level": 264,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Kebonsari": {
+          "weather": "Hujan Ringan",
+          "water_level": 256,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Pahlawan": {
+          "weather": "Cerah",
+          "water_level": 212,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Siola": {
+          "weather": "Hujan Lebat",
+          "water_level": 183,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Nias": {
+          "weather": "Berawan",
+          "water_level": 142,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Tambak Asri": {
+          "weather": "Hujan Lebat",
+          "water_level": 140,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Jawar Gendong": {
+          "weather": "Cerah",
+          "water_level": 221,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Margomulyo": {
+          "weather": "Cerah",
+          "water_level": 280,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Undaan": {
+          "weather": "Berawan",
+          "water_level": 194,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Gersikan": {
+          "weather": "Hujan Sedang",
+          "water_level": 239,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Merr": {
+          "weather": "Cerah",
+          "water_level": 216,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Bulak": {
+          "weather": "Hujan Sedang",
+          "water_level": 156,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kebraon": {
+          "weather": "Hujan Sedang",
+          "water_level": 277,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Boezem Aquatic": {
+          "weather": "Berawan",
+          "water_level": 215,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Bukit Barisan": {
+          "weather": "Cerah",
+          "water_level": 255,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        }
+      },
+      "21:08": {
+        "Pompa Air Dinoyo": {
+          "weather": "Berawan",
+          "water_level": 275,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Darmo Kali": {
+          "weather": "Cerah",
+          "water_level": 166,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Bratang": {
+          "weather": "Hujan Ringan",
+          "water_level": 156,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Flores": {
+          "weather": "Hujan Ringan",
+          "water_level": 236,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Keputran": {
+          "weather": "Hujan Lebat",
+          "water_level": 159,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Simolawang": {
+          "weather": "Cerah",
+          "water_level": 171,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Pesapen": {
+          "weather": "Hujan Sedang",
+          "water_level": 257,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Kutisari пра": {
+          "weather": "Cerah",
+          "water_level": 267,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Mulyorejo": {
+          "weather": "Cerah",
+          "water_level": 121,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Gunung Sari I": {
+          "weather": "Cerah",
+          "water_level": 285,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Kali Kepiting": {
+          "weather": "Cerah",
+          "water_level": 255,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Dharma Husada": {
+          "weather": "Cerah",
+          "water_level": 106,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Kalidami Screw": {
+          "weather": "Berawan",
+          "water_level": 176,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Gunung Sari II": {
+          "weather": "Hujan Sedang",
+          "water_level": 242,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kali Kali Rungkut": {
+          "weather": "Hujan Ringan",
+          "water_level": 165,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Wonorejo I": {
+          "weather": "Berawan",
+          "water_level": 132,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Dupak Bandarejo": {
+          "weather": "Cerah",
+          "water_level": 101,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Semolowaru I": {
+          "weather": "Hujan Ringan",
+          "water_level": 291,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Kenari": {
+          "weather": "Berawan",
+          "water_level": 166,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Grahadi": {
+          "weather": "Berawan",
+          "water_level": 256,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Jagir Kalimir": {
+          "weather": "Cerah",
+          "water_level": 234,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Semolowaru II": {
+          "weather": "Berawan",
+          "water_level": 137,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Asem Jaya": {
+          "weather": "Berawan",
+          "water_level": 296,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Karimun Jawa": {
+          "weather": "Hujan Ringan",
+          "water_level": 226,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kalisari": {
+          "weather": "Hujan Sedang",
+          "water_level": 212,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kalijudan": {
+          "weather": "Hujan Ringan",
+          "water_level": 113,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Boezem Kalidami I": {
+          "weather": "Cerah",
+          "water_level": 213,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kalibokor": {
+          "weather": "Hujan Lebat",
+          "water_level": 282,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Balong-Margomulyo": {
+          "weather": "Berawan",
+          "water_level": 199,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Gadukan": {
+          "weather": "Hujan Lebat",
+          "water_level": 202,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kebon Agung": {
+          "weather": "Cerah",
+          "water_level": 192,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Pandugo": {
+          "weather": "Cerah",
+          "water_level": 186,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Boezem Wonorejo": {
+          "weather": "Cerah",
+          "water_level": 122,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Kedung Asem": {
+          "weather": "Cerah",
+          "water_level": 198,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Jemur Andayani": {
+          "weather": "Cerah",
+          "water_level": 153,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Jeblokan": {
+          "weather": "Berawan",
+          "water_level": 181,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Boezem Kalidami II": {
+          "weather": "Cerah",
+          "water_level": 300,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Mulyosari (Ring Road ITS)": {
+          "weather": "Hujan Ringan",
+          "water_level": 130,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Tambak Wedi": {
+          "weather": "Cerah",
+          "water_level": 169,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Boezem Moro Krembangan": {
+          "weather": "Cerah",
+          "water_level": 152,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kenjeran 1": {
+          "weather": "Cerah",
+          "water_level": 244,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Medokan Semampir (SMPN 30)": {
+          "weather": "Hujan Ringan",
+          "water_level": 144,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Jemursari Prapen": {
+          "weather": "Cerah",
+          "water_level": 261,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Medokan Ayu-UPN": {
+          "weather": "Hujan Ringan",
+          "water_level": 250,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Boezem Kedurus": {
+          "weather": "Hujan Lebat",
+          "water_level": 125,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Wonorejo II": {
+          "weather": "Hujan Ringan",
+          "water_level": 257,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Bratang Lapangan": {
+          "weather": "Cerah",
+          "water_level": 114,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Greges": {
+          "weather": "Hujan Ringan",
+          "water_level": 300,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Balong": {
+          "weather": "Berawan",
+          "water_level": 130,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Boezem Morokrembangan II": {
+          "weather": "Cerah",
+          "water_level": 188,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kenjeran Ken Park": {
+          "weather": "Berawan",
+          "water_level": 204,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kenjeran II": {
+          "weather": "Cerah",
+          "water_level": 153,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Medokan Ayu Hilir": {
+          "weather": "Hujan Ringan",
+          "water_level": 123,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Jambangan": {
+          "weather": "Cerah",
+          "water_level": 200,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Ikan Mungsing": {
+          "weather": "Berawan",
+          "water_level": 271,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air BP2IP": {
+          "weather": "Cerah",
+          "water_level": 168,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kandangan": {
+          "weather": "Hujan Sedang",
+          "water_level": 196,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Petekan": {
+          "weather": "Hujan Sedang",
+          "water_level": 156,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Sumberrejo": {
+          "weather": "Hujan Sedang",
+          "water_level": 224,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Korem": {
+          "weather": "Hujan Ringan",
+          "water_level": 174,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Araya Onkologi": {
+          "weather": "Cerah",
+          "water_level": 144,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Wiyung": {
+          "weather": "Cerah",
+          "water_level": 261,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Underpass Satelit": {
+          "weather": "Hujan Sedang",
+          "water_level": 216,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air SWK Karah": {
+          "weather": "Hujan Lebat",
+          "water_level": 121,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Sawunggaling": {
+          "weather": "Cerah",
+          "water_level": 162,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kebonsari": {
+          "weather": "Berawan",
+          "water_level": 172,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Pahlawan": {
+          "weather": "Cerah",
+          "water_level": 215,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Siola": {
+          "weather": "Cerah",
+          "water_level": 124,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Nias": {
+          "weather": "Berawan",
+          "water_level": 193,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Tambak Asri": {
+          "weather": "Cerah",
+          "water_level": 229,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Jawar Gendong": {
+          "weather": "Cerah",
+          "water_level": 156,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Margomulyo": {
+          "weather": "Cerah",
+          "water_level": 172,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Undaan": {
+          "weather": "Berawan",
+          "water_level": 199,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Gersikan": {
+          "weather": "Hujan Sedang",
+          "water_level": 222,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Merr": {
+          "weather": "Hujan Ringan",
+          "water_level": 290,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Bulak": {
+          "weather": "Hujan Lebat",
+          "water_level": 227,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kebraon": {
+          "weather": "Cerah",
+          "water_level": 134,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Boezem Aquatic": {
+          "weather": "Cerah",
+          "water_level": 165,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Bukit Barisan": {
+          "weather": "Cerah",
+          "water_level": 226,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        }
+      },
+      "21:09": {
+        "Pompa Air Dinoyo": {
+          "weather": "Hujan Lebat",
+          "water_level": 236,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Darmo Kali": {
+          "weather": "Hujan Ringan",
+          "water_level": 228,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Bratang": {
+          "weather": "Hujan Lebat",
+          "water_level": 241,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Flores": {
+          "weather": "Berawan",
+          "water_level": 128,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Keputran": {
+          "weather": "Hujan Sedang",
+          "water_level": 212,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Simolawang": {
+          "weather": "Cerah",
+          "water_level": 167,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Pesapen": {
+          "weather": "Cerah",
+          "water_level": 183,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kutisari пра": {
+          "weather": "Hujan Sedang",
+          "water_level": 246,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Mulyorejo": {
+          "weather": "Cerah",
+          "water_level": 298,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Gunung Sari I": {
+          "weather": "Berawan",
+          "water_level": 201,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kali Kepiting": {
+          "weather": "Berawan",
+          "water_level": 152,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Dharma Husada": {
+          "weather": "Cerah",
+          "water_level": 191,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kalidami Screw": {
+          "weather": "Hujan Ringan",
+          "water_level": 176,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Gunung Sari II": {
+          "weather": "Hujan Lebat",
+          "water_level": 282,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Kali Kali Rungkut": {
+          "weather": "Cerah",
+          "water_level": 206,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Wonorejo I": {
+          "weather": "Hujan Sedang",
+          "water_level": 112,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Dupak Bandarejo": {
+          "weather": "Cerah",
+          "water_level": 105,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Semolowaru I": {
+          "weather": "Cerah",
+          "water_level": 224,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kenari": {
+          "weather": "Cerah",
+          "water_level": 166,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Grahadi": {
+          "weather": "Cerah",
+          "water_level": 198,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Jagir Kalimir": {
+          "weather": "Cerah",
+          "water_level": 192,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Semolowaru II": {
+          "weather": "Berawan",
+          "water_level": 276,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Asem Jaya": {
+          "weather": "Cerah",
+          "water_level": 266,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Karimun Jawa": {
+          "weather": "Cerah",
+          "water_level": 220,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kalisari": {
+          "weather": "Cerah",
+          "water_level": 164,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kalijudan": {
+          "weather": "Cerah",
+          "water_level": 164,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Boezem Kalidami I": {
+          "weather": "Cerah",
+          "water_level": 120,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Kalibokor": {
+          "weather": "Berawan",
+          "water_level": 123,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Balong-Margomulyo": {
+          "weather": "Hujan Ringan",
+          "water_level": 203,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Gadukan": {
+          "weather": "Berawan",
+          "water_level": 227,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kebon Agung": {
+          "weather": "Cerah",
+          "water_level": 107,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Pandugo": {
+          "weather": "Cerah",
+          "water_level": 255,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Boezem Wonorejo": {
+          "weather": "Hujan Ringan",
+          "water_level": 109,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Kedung Asem": {
+          "weather": "Cerah",
+          "water_level": 198,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Jemur Andayani": {
+          "weather": "Cerah",
+          "water_level": 241,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Jeblokan": {
+          "weather": "Cerah",
+          "water_level": 109,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Boezem Kalidami II": {
+          "weather": "Cerah",
+          "water_level": 202,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Mulyosari (Ring Road ITS)": {
+          "weather": "Cerah",
+          "water_level": 218,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Tambak Wedi": {
+          "weather": "Cerah",
+          "water_level": 140,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Boezem Moro Krembangan": {
+          "weather": "Hujan Ringan",
+          "water_level": 281,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Kenjeran 1": {
+          "weather": "Berawan",
+          "water_level": 256,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Medokan Semampir (SMPN 30)": {
+          "weather": "Hujan Sedang",
+          "water_level": 202,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Jemursari Prapen": {
+          "weather": "Cerah",
+          "water_level": 166,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Medokan Ayu-UPN": {
+          "weather": "Cerah",
+          "water_level": 180,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Boezem Kedurus": {
+          "weather": "Berawan",
+          "water_level": 237,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Wonorejo II": {
+          "weather": "Cerah",
+          "water_level": 160,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Bratang Lapangan": {
+          "weather": "Cerah",
+          "water_level": 250,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Greges": {
+          "weather": "Hujan Sedang",
+          "water_level": 211,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Balong": {
+          "weather": "Hujan Ringan",
+          "water_level": 203,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Boezem Morokrembangan II": {
+          "weather": "Hujan Ringan",
+          "water_level": 156,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kenjeran Ken Park": {
+          "weather": "Cerah",
+          "water_level": 247,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kenjeran II": {
+          "weather": "Hujan Ringan",
+          "water_level": 202,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Medokan Ayu Hilir": {
+          "weather": "Cerah",
+          "water_level": 127,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Jambangan": {
+          "weather": "Cerah",
+          "water_level": 246,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Ikan Mungsing": {
+          "weather": "Berawan",
+          "water_level": 178,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air BP2IP": {
+          "weather": "Hujan Ringan",
+          "water_level": 152,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kandangan": {
+          "weather": "Cerah",
+          "water_level": 125,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Petekan": {
+          "weather": "Cerah",
+          "water_level": 100,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Sumberrejo": {
+          "weather": "Berawan",
+          "water_level": 136,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Korem": {
+          "weather": "Hujan Sedang",
+          "water_level": 270,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Araya Onkologi": {
+          "weather": "Hujan Lebat",
+          "water_level": 156,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Wiyung": {
+          "weather": "Cerah",
+          "water_level": 141,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Underpass Satelit": {
+          "weather": "Cerah",
+          "water_level": 186,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air SWK Karah": {
+          "weather": "Cerah",
+          "water_level": 216,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Sawunggaling": {
+          "weather": "Berawan",
+          "water_level": 133,
+          "active_pumps": 3,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Kebonsari": {
+          "weather": "Berawan",
+          "water_level": 201,
+          "active_pumps": 2,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Pahlawan": {
+          "weather": "Cerah",
+          "water_level": 136,
+          "active_pumps": 2,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Siola": {
+          "weather": "Cerah",
+          "water_level": 128,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Nias": {
+          "weather": "Hujan Sedang",
+          "water_level": 256,
+          "active_pumps": 3,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Tambak Asri": {
+          "weather": "Berawan",
+          "water_level": 233,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Jawar Gendong": {
+          "weather": "Hujan Lebat",
+          "water_level": 206,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Margomulyo": {
+          "weather": "Cerah",
+          "water_level": 297,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Undaan": {
+          "weather": "Hujan Lebat",
+          "water_level": 227,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Gersikan": {
+          "weather": "Hujan Lebat",
+          "water_level": 256,
+          "active_pumps": 1,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Merr": {
+          "weather": "Cerah",
+          "water_level": 245,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Bulak": {
+          "weather": "Cerah",
+          "water_level": 192,
+          "active_pumps": 1,
+          "flood_status": "Siaga"
+        },
+        "Pompa Air Kebraon": {
+          "weather": "Cerah",
+          "water_level": 109,
+          "active_pumps": 1,
+          "flood_status": "Aman"
+        },
+        "Pompa Air Boezem Aquatic": {
+          "weather": "Berawan",
+          "water_level": 263,
+          "active_pumps": 2,
+          "flood_status": "Waspada"
+        },
+        "Pompa Air Bukit Barisan": {
+          "weather": "Cerah",
+          "water_level": 214,
+          "active_pumps": 3,
+          "flood_status": "Siaga"
+        }
+      }
+    }
+  }
+}
