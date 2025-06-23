@@ -41,7 +41,7 @@ class EvakuasiController extends Controller
 
         Http::post($this->databaseUrl . '/evakuasi.json', $data);
 
-        return redirect('/')->with('success', 'Request evakuasi berhasil dikirim.');
+        return redirect('/request-evakuasi')->with('success', 'Request evakuasi berhasil dikirim.');
     }
 
     public function adminEvakuasi()

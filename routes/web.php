@@ -33,6 +33,7 @@ Route::get('/request-evakuasi', [EvakuasiController::class, 'form'])->name('requ
 Route::post('/request-evakuasi', [EvakuasiController::class, 'submit'])->name('request.evakuasi.submit');
 Route::get('/admin/evakuasi', [EvakuasiController::class, 'adminEvakuasi'])->name('admin.evakuasi');
 
+
 use App\Http\Controllers\PublicController;
 
 Route::get('/status-banjir', [PublicController::class, 'statusBanjir'])->name('status.banjir');

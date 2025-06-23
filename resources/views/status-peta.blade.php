@@ -52,13 +52,13 @@
 
     let markersLayer = L.layerGroup().addTo(map);
 
-    // Contoh data koordinat pompa (HARUS kamu sesuaikan nanti!)
+
     const pumpCoordinates = {
         "Pompa Air Dinoyo": [-7.2801, 112.7281],
         "Pompa Air Darmo Kali": [-7.2900, 112.7200],
         "Pompa Air Bratang": [-7.3050, 112.7550],
         "Pompa Air Flores": [-7.2500, 112.7500],
-        // Tambahkan semua pompa lainnya di sini...
+
     };
 
     monitoringRef.on('value', (snapshot) => {
