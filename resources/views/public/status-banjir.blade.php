@@ -33,9 +33,9 @@
                 <i class="fas fa-search text-primary"></i>
                 Status Banjir DAS (Realtime)
             </h4>
-            <a href="/status-peta" class="btn btn-primary">
+            <button id="lihatPetaBtn" class="btn btn-primary" disabled>
                 <i class="fas fa-map-location-dot"></i> Lihat Peta
-            </a>
+            </button>
         </div>
         <div class="card-body p-4">
             <form id="form-pencarian">
@@ -123,23 +123,36 @@
     firebase.initializeApp(firebaseConfig);
     const database = firebase.database();
 
-    // Mengisi tanggal & waktu saat ini sebagai nilai default untuk kemudahan pengguna
-    const now = new Date();
-    document.getElementById('tanggalInput').valueAsDate = now;
-    document.getElementById('waktuInput').value = now.toTimeString().substring(0, 5);
-
     // Elemen UI
     const form = document.getElementById('form-pencarian');
+    const lihatPetaBtn = document.getElementById('lihatPetaBtn');
     const loadingIndicator = document.getElementById('loading-indicator');
     const alertNotFound = document.getElementById('alert-tidak-ditemukan');
     const tableResult = document.getElementById('tabel-hasil');
     const tableBody = document.getElementById('tableBody');
     const initialMessage = document.getElementById('pesan-awal');
 
+    // [BARU] Variabel untuk menyimpan parameter pencarian terakhir yang berhasil
+    let lastSearchParams = null;
+
+    // Mengisi tanggal & waktu saat ini sebagai nilai default untuk kemudahan pengguna
+    const now = new Date();
+    document.getElementById('tanggalInput').valueAsDate = now;
+    document.getElementById('waktuInput').value = now.toTimeString().substring(0, 5);
+
     // Event listener untuk form submit, bukan lagi pada setiap input
     form.addEventListener('submit', function(event) {
         event.preventDefault(); // Mencegah reload halaman
         renderData(); // Panggil fungsi render utama
+    });
+
+    // Event listener untuk tombol "Lihat Peta"
+    lihatPetaBtn.addEventListener('click', () => {
+        if (lastSearchParams) {
+            const { tanggal, waktu, pompa } = lastSearchParams;
+            const url = `/status-peta?tanggal=${encodeURIComponent(tanggal)}&waktu=${encodeURIComponent(waktu)}&pompa=${encodeURIComponent(pompa)}`;
+            window.location.href = url;
+        }
     });
 
     function renderData() {
@@ -148,6 +161,10 @@
         alertNotFound.classList.add('d-none');
         tableResult.classList.add('d-none');
         initialMessage.classList.add('d-none');
+
+        // Nonaktifkan tombol peta setiap kali pencarian baru dimulai
+        lihatPetaBtn.disabled = true;
+        lastSearchParams = null;
 
         // 2. Ambil nilai dari input
         const tanggal = document.getElementById('tanggalInput').value;
@@ -183,6 +200,9 @@
             // 5. Tampilkan hasil atau pesan tidak ditemukan
             if (results.length > 0) {
                 displayResultsInTable(results);
+                // Simpan parameter pencarian dan aktifkan tombol peta
+                lastSearchParams = { tanggal: tanggal, waktu: waktu, pompa: keyword };
+                lihatPetaBtn.disabled = false;
             } else {
                 alertNotFound.classList.remove('d-none');
             }
