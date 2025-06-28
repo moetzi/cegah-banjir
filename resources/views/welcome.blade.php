@@ -47,12 +47,9 @@
                     Cepat, aman, dan dipercaya oleh banyak pengguna di seluruh Indonesia.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4 animate-fade-in" style="animation-delay: 0.8s;">
-                    <button class="accent-bg-blue text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-2xl">
-                        <i class="fas fa-rocket mr-2"></i>Mulai Sekarang
-                    </button>
-                    <button class="border-2 border-[var(--chetwode-blue)] text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 hover:bg-[var(--chetwode-blue)] hover:text-white hover:shadow-xl">
-                        <i class="fas fa-play mr-2"></i>Pelajari Lebih Lanjut
-                    </button>
+                    <a href="{{ url('/status-banjir') }}" class="accent-bg-blue text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-2xl inline-block text-decoration-none">
+                        <i class="fas fa-rocket mr-2"></i>Cek Status Banjir
+                    </a>
                 </div>
             </div>
 
@@ -81,6 +78,39 @@
                     <div class="absolute -bottom-4 -left-4 accent-bg-yinmn rounded-full p-3 shadow-lg">
                         <i class="fas fa-check text-white"></i>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tips Section -->
+    <section id="tips" class="py-20 px-6 bg-gradient-to-r from-blue-50 to-cyan-50">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-12" data-anim="fade-in-up">
+                <h2 class="text-4xl font-bold accent-black mb-4">TIPS MENGHADAPI BANJIR</h2>
+                <p class="text-xl text-gray-700">Langkah-langkah penting yang harus dilakukan saat menghadapi banjir</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="glass-effect rounded-2xl p-8 text-center transition-all duration-300 hover:shadow-2xl hover:-translate-y-2" data-anim="fade-in-up" style="animation-delay: 0.2s;">
+                    <div class="text-5xl text-red-500 mb-6 inline-block bg-red-100 p-5 rounded-full">
+                        <i class="fas fa-power-off"></i>
+                    </div>
+                    <h3 class="text-xl font-bold accent-black mb-4">Matikan Listrik</h3>
+                    <p class="text-gray-700">Matikan listrik rumah anda untuk mencegah bahaya korsleting dan kejutan listrik</p>
+                </div>
+                <div class="glass-effect rounded-2xl p-8 text-center transition-all duration-300 hover:shadow-2xl hover:-translate-y-2" data-anim="fade-in-up" style="animation-delay: 0.4s;">
+                    <div class="text-5xl text-orange-500 mb-6 inline-block bg-orange-100 p-5 rounded-full">
+                        <i class="fas fa-briefcase-medical"></i>
+                    </div>
+                    <h3 class="text-xl font-bold accent-black mb-4">Siapkan Tas Darurat</h3>
+                    <p class="text-gray-700">Siapkan tas darurat berisi dokumen penting dan obat-obatan yang diperlukan</p>
+                </div>
+                <div class="glass-effect rounded-2xl p-8 text-center transition-all duration-300 hover:shadow-2xl hover:-translate-y-2" data-anim="fade-in-up" style="animation-delay: 0.6s;">
+                    <div class="text-5xl text-green-500 mb-6 inline-block bg-green-100 p-5 rounded-full">
+                        <i class="fas fa-mountain"></i>
+                    </div>
+                    <h3 class="text-xl font-bold accent-black mb-4">Cari Lokasi Aman</h3>
+                    <p class="text-gray-700">Cari lokasi aman yang lebih tinggi dan jauh dari area rawan banjir</p>
                 </div>
             </div>
         </div>
