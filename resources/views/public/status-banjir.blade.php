@@ -6,251 +6,157 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
     <style>
-        :root {
-            --ceban-blue: #3c91ed;
-        }
-
+        /* Mengaplikasikan font Montserrat ke seluruh halaman */
         body {
-            background-color: #f0f7ff;
+            font-family: 'Montserrat', sans-serif;
         }
 
-
-        .text-ceban-blue {
-            color: var(--ceban-blue);
-        }
-
-        .border-primary {
-            border-color: var(--ceban-blue) !important;
-        }
-
-        .btn-primary {
-            background-color: var(--ceban-blue);
-            border-color: var(--ceban-blue);
-        }
-
-        .btn-primary:hover {
-            background-color: #2972c2;
-            border-color: #2972c2;
-        }
-
-        .btn-outline-primary {
-            color: var(--ceban-blue);
-            border-color: var(--ceban-blue);
-        }
-
-        .btn-outline-primary:hover {
-            background-color: var(--ceban-blue);
-            color: white;
-        }
-
-        .form-label {
-            font-weight: 500;
-        }
-
-        .card-header .btn {
-            float: right;
-        }
-
-        /* --- Style Kustom untuk Navbar Bootstrap --- */
-        .navbar.sticky-top {
-            background-color: rgba(255, 255, 255, 0.8);
-            backdrop-filter: blur(10px);
-            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-            padding-top: 1rem;
-            padding-bottom: 1rem;
-        }
-
-        .navbar-brand.text-ceban-blue:hover {
-            color: var(--ceban-blue) !important;
-        }
-
-        .navbar-brand {
-            padding-top: 0;
-            padding-bottom: 0;
-        }
-
-        .navbar-nav .nav-link {
-            color: var(--ceban-blue);
-            font-weight: 600;
-            transition: color 0.3s ease-out;
+        /* CSS Kustom untuk Animasi Navbar */
+        .nav-link-animate {
             position: relative;
-            padding-left: 0.5rem;
-            padding-right: 0.5rem;
+            padding-bottom: 5px;
         }
-
-        .navbar-nav .nav-link:hover {
-            font-weight: 800;
-            color: var(--ceban-blue) !important;
-        }
-
-        .navbar-nav .nav-link.active {
-            font-weight: 800;
-            color: var(--ceban-blue) !important;
-        }
-
-        #hover-line {
-            position: absolute;
-            bottom: -16px;
-            height: 3px;
-            background-color: var(--ceban-blue);
-            width: 0;
-            opacity: 0;
-            transition: none;
-        }
-
-        .navbar-nav .nav-link.active::after {
+        .nav-link-animate::after {
             content: '';
             position: absolute;
-            bottom: -16px;
-            /* Posisi vertikal sama dengan #hover-line */
-            left: 0;
+            width: 0;
+            height: 2px;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #3793e0;
+            transition: width 0.3s ease-in-out;
+        }
+        .nav-link-animate:hover::after,
+        .nav-link-animate.active::after {
             width: 100%;
-            height: 3px;
-            background-color: var(--ceban-blue);
         }
 
-        /* --- CSS Animasi --- */
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-                transform: translateY(15px);
-            }
+        /* Styling untuk loading spinner */
+        .spinner {
+            border-top-color: #3793e0;
+            animation: spin 1s linear infinite;
+        }
 
+        @keyframes spin {
             to {
-                opacity: 1;
-                transform: translateY(0);
+                transform: rotate(360deg);
             }
         }
 
-        .table-responsive {
-            max-height: 450px;
-            /* Batasi tinggi tabel agar bisa di-scroll jika hasil banyak */
+        /* Membuat header tabel sticky */
+        .table-container {
+            max-height: 60vh;
+            overflow-y: auto;
         }
-
-        .fade-in-effect {
-            animation: fadeIn 0.7s ease-out forwards;
-            opacity: 0;
+        thead th {
+            position: sticky;
+            top: 0;
+            z-index: 10;
         }
     </style>
 </head>
 
+<body class="bg-gradient-to-br from-blue-100 to-blue-200">
 
-<body>
-    <nav class="navbar navbar-expand-lg sticky-top fade-in-effect shadow-sm">
-        <div class="container">
-            <span class="navbar-brand fw-bolder fs-4 text-ceban-blue p-0">CeBan</span>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav mx-auto position-relative">
-                    <a class="nav-link mx-lg-3" href="/">Home</a>
-                    <a class="nav-link active mx-lg-3" aria-current="page" href="/status-banjir">Status Banjir</a>
-                    <a class="nav-link mx-lg-3" href="/#about">About</a>
-                    <a class="nav-link mx-lg-3" href="/request-evakuasi">Request Evakuasi</a>
-
-                    <div id="hover-line"></div>
-                </div>
-
-                <div class="d-none d-lg-block" style="width: 160px; visibility: hidden;"></div>
+    <nav class="w-full z-50 px-6 py-4 sticky top-0 bg-white/80 backdrop-blur-lg border-b border-gray-200/50 shadow-sm">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <div class="text-2xl font-bold flex items-center text-[#3793e0]">
+                CeBan
             </div>
+            <div class="hidden md:flex space-x-8 font-semibold">
+                <a href="/" class="nav-link-animate text-[#3793e0] hover:text-blue-700 transition-colors duration-300">Home</a>
+                <a href="/status-banjir" class="nav-link-animate active text-[#3793e0] hover:text-blue-700 transition-colors duration-300">Status Banjir</a>
+                <a href="/#about" class="nav-link-animate text-[#3793e0] hover:text-blue-700 transition-colors duration-300">About</a>
+                <a href="/request-evakuasi" class="nav-link-animate text-[#3793e0] hover:text-blue-700 transition-colors duration-300">Request Evakuasi</a>
+            </div>
+            <a href="/login" class="bg-[#3793e0] text-white px-6 py-2 rounded-full font-semibold hover:bg-blue-700 transition-all duration-300 items-center hidden md:flex">
+                <i class="fas fa-user-shield mr-2"></i>Admin Login
+            </a>
         </div>
     </nav>
 
-    <div class="container my-5">
-        <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap fade-in-effect"
-            style="animation-delay: 150ms;">
-            <div>
-                <h2 class="fw-bold text-ceban-blue">Status Terkini Pompa Air</h2>
-                <p class="text-muted mb-0">Data diperbarui secara realtime dari seluruh pompa air.</p>
+    <div class="max-w-7xl mx-auto py-10 px-4 sm:px-6 lg:px-8">
+        <div class="bg-white/90 backdrop-blur-sm shadow-2xl rounded-2xl p-6 md:p-8">
+            <div class="flex justify-between items-center mb-6 flex-wrap gap-4">
+                <div>
+                    <h2 class="text-3xl font-bold text-[#3793e0]">Status Terkini Pompa Air</h2>
+                    <p class="text-gray-500 mt-1">Data diperbarui secara realtime dari seluruh pompa air.</p>
+                </div>
+                <button id="lihatPetaBtn" class="bg-blue-500 text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:bg-blue-600 transition-colors disabled:bg-gray-400 disabled:cursor-not-allowed" disabled>
+                    <i class="fas fa-map-location-dot mr-2"></i>Lihat Peta
+                </button>
             </div>
-            <button id="lihatPetaBtn" class="btn btn-primary" disabled>
-                <i class="fas fa-map-location-dot"></i> Lihat Peta
-            </button>
-        </div>
 
-        <div class="card shadow-sm mb-4 fade-in-effect" style="animation-delay: 300ms;">
-            <div class="card-body">
-                <form id="form-pencarian">
-                    <div class="row g-3 align-items-end">
-                        <div class="col-md-3">
-                            <label for="tanggalInput" class="form-label"><i class="fas fa-calendar-alt"></i>
-                                Tanggal</label>
-                            <input type="date" class="form-control" id="tanggalInput" required>
-                        </div>
-                        <div class="col-md-3">
-                            <label for="waktuInput" class="form-label"><i class="fas fa-clock"></i> Waktu
-                                (hh:mm)</label>
-                            <input type="time" class="form-control" id="waktuInput" required>
-                        </div>
-                        <div class="col-md-4">
-                            <label for="searchStation" class="form-label"><i class="fas fa-water-ladder"></i> Nama
-                                Pompa</label>
-                            <input type="text" class="form-control" id="searchStation"
-                                placeholder="Contoh: Pompa Air Dinoyo">
-                        </div>
-                        <div class="col-md-2">
-                            <button type="submit" class="btn btn-success w-100">
-                                <i class="fas fa-search"></i> Cari Data
-                            </button>
-                        </div>
+            <div class="bg-gray-50 rounded-xl p-4 mb-6 border border-gray-200">
+                <form id="form-pencarian" class="grid grid-cols-1 md:grid-cols-10 gap-4 items-end">
+                    <div class="md:col-span-3">
+                        <label for="tanggalInput" class="block text-sm font-medium text-gray-700 mb-1"><i class="fas fa-calendar-alt mr-1"></i> Tanggal</label>
+                        <input type="date" id="tanggalInput" class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500" required>
+                    </div>
+                    <div class="md:col-span-2">
+                        <label for="waktuInput" class="block text-sm font-medium text-gray-700 mb-1"><i class="fas fa-clock mr-1"></i> Waktu (hh:mm)</label>
+                        <input type="time" id="waktuInput" class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500" required>
+                    </div>
+                    <div class="md:col-span-3">
+                        <label for="searchStation" class="block text-sm font-medium text-gray-700 mb-1"><i class="fas fa-water-ladder mr-1"></i> Nama Pompa</label>
+                        <input type="text" id="searchStation" class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500" placeholder="Contoh: Pompa Air Dinoyo">
+                    </div>
+                    <div class="md:col-span-2">
+                        <button type="submit" class="w-full bg-green-500 text-white font-bold py-2 px-4 rounded-lg shadow-md hover:bg-green-600 transition-colors">
+                            <i class="fas fa-search"></i> Cari
+                        </button>
                     </div>
                 </form>
+            </div>
 
-                <hr class="my-4 pd-4">
+            <div id="area-hasil">
+                <div id="loading-indicator" class="text-center py-10 hidden">
+                    <div class="spinner w-12 h-12 rounded-full border-4 border-t-4 border-gray-200 mx-auto"></div>
+                    <p class="mt-3 text-gray-600">Mencari data...</p>
+                </div>
+                <div id="alert-tidak-ditemukan" class="bg-yellow-100 border-l-4 border-yellow-500 text-yellow-700 p-4 rounded-md hidden" role="alert">
+                    <p class="font-bold"><i class="fas fa-exclamation-triangle mr-2"></i>Data tidak ditemukan</p>
+                    <p>Silakan periksa kembali filter pencarian Anda.</p>
+                </div>
 
-                <!-- Area untuk menampilkan hasil -->
-                <div id="area-hasil">
-                    <div id="loading-indicator" class="text-center d-none">
-                        <div class="spinner-border text-primary" role="status">
-                            <span class="visually-hidden">Loading...</span>
-                        </div>
-                        <p class="mt-2">Mencari data di database...</p>
-                    </div>
-
-                    <div id="alert-tidak-ditemukan" class="alert alert-warning d-none" role="alert">
-                        <i class="fas fa-exclamation-triangle"></i>
-                        <strong>Data tidak ditemukan.</strong> Periksa kembali tanggal dan waktu yang Anda masukkan.
-                    </div>
-
-                    <div id="tabel-hasil" class="table-responsive d-none">
-                        <table class="table table-striped table-hover table-bordered">
-                            <thead class="table-dark sticky-top">
-                                <tr>
-                                    <th>Nama Pompa</th>
-                                    <th>Cuaca</th>
-                                    <th>Tinggi Air (cm)</th>
-                                    <th>Pompa Aktif</th>
-                                    <th>Status Banjir</th>
-                                </tr>
-                            </thead>
-                            <tbody id="tableBody">
-                                <!-- Isi tabel akan dibuat oleh JavaScript -->
+                <div id="tabel-container" class="table-container hidden">
+                    <table class="min-w-full divide-y divide-gray-200">
+                        <thead class="bg-gray-800 text-white">
+                            <tr>
+                                <th scope="col" class="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider">Nama Pompa</th>
+                                <th scope="col" class="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider">Cuaca</th>
+                                <th scope="col" class="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider">Tinggi Air (cm)</th>
+                                <th scope="col" class="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider">Pompa Aktif</th>
+                                <th scope="col" class="px-6 py-3 text-center text-xs font-medium uppercase tracking-wider">Status</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tableBody" class="bg-white divide-y divide-gray-200">
                             </tbody>
-                        </table>
-                    </div>
+                    </table>
+                </div>
 
-                    <div id="pesan-awal" class="text-center text-muted pt-3">
-                        <i class="fas fa-info-circle fa-2x mb-2"></i>
-                        <p>Silakan pilih tanggal dan waktu, lalu klik "Cari Data" untuk menampilkan data riwayat.
-                        </p>
-                    </div>
+                <div id="pesan-awal" class="text-center text-gray-500 py-16">
+                    <i class="fas fa-info-circle fa-3x mb-3 text-blue-400"></i>
+                    <p>Silakan pilih tanggal dan waktu, lalu klik "Cari" untuk menampilkan data.</p>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Firebase SDK -->
     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
 
     <script>
-        // Firebase Config
         const firebaseConfig = {
             apiKey: "AIzaSyCtvJ2hGE0jvp_wOGqH8uG7pg1sgrvTLwo",
             authDomain: "cegah-banjir.firebaseapp.com",
@@ -261,8 +167,6 @@
             appId: "1:878634677325:web:d6077eaf62ea13490a1804",
             measurementId: "G-W3YXYXR23B"
         };
-
-        // Inisialisasi Firebase
         firebase.initializeApp(firebaseConfig);
         const database = firebase.database();
 
@@ -271,152 +175,98 @@
         const lihatPetaBtn = document.getElementById('lihatPetaBtn');
         const loadingIndicator = document.getElementById('loading-indicator');
         const alertNotFound = document.getElementById('alert-tidak-ditemukan');
-        const tableResult = document.getElementById('tabel-hasil');
+        const tableContainer = document.getElementById('tabel-container');
         const tableBody = document.getElementById('tableBody');
         const initialMessage = document.getElementById('pesan-awal');
-
-        // Variabel untuk menyimpan parameter pencarian terakhir yang berhasil
         let lastSearchParams = null;
 
-        // Mengisi tanggal & waktu saat ini sebagai nilai default untuk kemudahan pengguna
+        // Set nilai default tanggal dan waktu
         const now = new Date();
         document.getElementById('tanggalInput').valueAsDate = now;
         document.getElementById('waktuInput').value = now.toTimeString().substring(0, 5);
 
-        // Event listener untuk form submit, bukan lagi pada setiap input
         form.addEventListener('submit', function(event) {
-            event.preventDefault(); // Mencegah reload halaman
-            renderData(); // Panggil fungsi render utama
+            event.preventDefault();
+            renderData();
         });
 
-        // Event listener untuk tombol "Lihat Peta"
         lihatPetaBtn.addEventListener('click', () => {
-            if (lastSearchParams) {
-                const {
-                    tanggal,
-                    waktu,
-                    pompa
-                } = lastSearchParams;
-                const url =
-                    `/status-peta?tanggal=${encodeURIComponent(tanggal)}&waktu=${encodeURIComponent(waktu)}&pompa=${encodeURIComponent(pompa)}`;
+             if (lastSearchParams) {
+                const { tanggal, waktu, pompa } = lastSearchParams;
+                const url = `/status-peta?tanggal=${encodeURIComponent(tanggal)}&waktu=${encodeURIComponent(waktu)}&pompa=${encodeURIComponent(pompa)}`;
                 window.location.href = url;
-            }
+             }
         });
 
         function renderData() {
-            // 1. Tampilkan loading dan sembunyikan yang lain
-            loadingIndicator.classList.remove('d-none');
-            alertNotFound.classList.add('d-none');
-            tableResult.classList.add('d-none');
-            initialMessage.classList.add('d-none');
-
-            // Nonaktifkan tombol peta setiap kali pencarian baru dimulai
+            loadingIndicator.classList.remove('hidden');
+            alertNotFound.classList.add('hidden');
+            tableContainer.classList.add('hidden');
+            tableBody.innerHTML = '';
+            initialMessage.classList.add('hidden');
             lihatPetaBtn.disabled = true;
             lastSearchParams = null;
 
-            // 2. Ambil nilai dari input
             const tanggal = document.getElementById('tanggalInput').value;
             const waktu = document.getElementById('waktuInput').value;
             const keyword = document.getElementById('searchStation').value.trim().toLowerCase();
 
             if (!tanggal || !waktu) {
-                loadingIndicator.classList.add('d-none');
-                alertNotFound.classList.remove('d-none');
+                loadingIndicator.classList.add('hidden');
+                alertNotFound.classList.remove('hidden');
                 return;
             }
 
-            // 3. Ambil data dari Firebase
             const dataPath = `monitoring_data/${tanggal}/${waktu}`;
-            const dataRef = database.ref(dataPath);
-
-            dataRef.once('value', (snapshot) => {
+            database.ref(dataPath).once('value', (snapshot) => {
                 const data = snapshot.val();
                 let results = [];
-
                 if (data) {
-                    // Filter data berdasarkan keyword pencarian
                     for (const pumpName in data) {
                         if (keyword === '' || pumpName.toLowerCase().includes(keyword)) {
-                            results.push({
-                                name: pumpName,
-                                ...data[pumpName]
-                            });
+                            results.push({ name: pumpName, ...data[pumpName] });
                         }
                     }
                 }
 
-                // 4. Sembunyikan loading spinner
-                loadingIndicator.classList.add('d-none');
+                loadingIndicator.classList.add('hidden');
 
-                // 5. Tampilkan hasil atau pesan tidak ditemukan
                 if (results.length > 0) {
+                    tableContainer.classList.remove('hidden');
                     displayResultsInTable(results);
-                    // Simpan parameter pencarian dan aktifkan tombol peta
-                    lastSearchParams = {
-                        tanggal: tanggal,
-                        waktu: waktu,
-                        pompa: keyword
-                    };
+                    lastSearchParams = { tanggal: tanggal, waktu: waktu, pompa: keyword };
                     lihatPetaBtn.disabled = false;
                 } else {
-                    alertNotFound.classList.remove('d-none');
+                    alertNotFound.classList.remove('hidden');
                 }
             });
         }
 
         function displayResultsInTable(results) {
-            tableBody.innerHTML = ''; // Kosongkan tabel sebelum diisi
-
-            // Helper function untuk membuat badge status
-            function createStatusBadge(status) {
-                let badgeClass = 'bg-secondary';
-                if (status === 'Aman') badgeClass = 'bg-success';
-                else if (status === 'Siaga') badgeClass = 'bg-warning text-dark';
-                else if (status === 'Waspada') badgeClass = 'bg-danger';
-                return `<span class="badge ${badgeClass} p-2">${status}</span>`;
+            function getStatusBadge(status) {
+                if (status === 'Aman') return 'bg-green-100 text-green-800';
+                if (status === 'Siaga') return 'bg-yellow-100 text-yellow-800';
+                if (status === 'Waspada') return 'bg-red-100 text-red-800';
+                return 'bg-gray-100 text-gray-800';
             }
 
-            // Isi tabel dengan data hasil
             results.forEach(item => {
-                const row = `
-                <tr>
-                    <td>${item.name}</td>
-                    <td>${item.weather}</td>
-                    <td>${item.water_level}</td>
-                    <td>${item.active_pumps}</td>
-                    <td>${createStatusBadge(item.flood_status)}</td>
-                </tr>
-                `;
-                tableBody.innerHTML += row;
+                const badgeClass = getStatusBadge(item.flood_status);
+                const rowHTML = `
+                <tr class="hover:bg-gray-50">
+                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">${item.name}</td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">${item.weather}</td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">${item.water_level}</td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">${item.active_pumps}</td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-center">
+                        <span class="px-3 py-1 inline-flex text-xs leading-5 font-semibold rounded-full ${badgeClass}">
+                            ${item.flood_status}
+                        </span>
+                    </td>
+                </tr>`;
+                tableBody.innerHTML += rowHTML;
             });
-
-            // Tampilkan tabel hasil
-            tableResult.classList.remove('d-none');
         }
-
-        // Script untuk garis bawah navbar yang dinamis
-        document.addEventListener('DOMContentLoaded', function() {
-            const navContainer = document.querySelector('.navbar-nav');
-            const navLinks = navContainer.querySelectorAll('.nav-link');
-            const hoverLine = document.getElementById('hover-line');
-
-            navLinks.forEach(link => {
-                link.addEventListener('mouseenter', () => {
-                    // Menggunakan offsetLeft dan offsetWidth yang lebih stabil
-                    const leftPosition = link.offsetLeft;
-                    const linkWidth = link.offsetWidth;
-
-                    hoverLine.style.left = `${leftPosition}px`;
-                    hoverLine.style.width = `${linkWidth}px`;
-                    hoverLine.style.opacity = '1'; // Munculkan garis
-                });
-            });
-
-            navContainer.addEventListener('mouseleave', () => {
-                hoverLine.style.opacity = '0'; // Sembunyikan garis saat kursor keluar
-            });
-        });
     </script>
 </body>
-
 </html>
