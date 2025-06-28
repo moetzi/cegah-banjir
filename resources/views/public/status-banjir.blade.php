@@ -15,12 +15,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
     <style>
-        /* Mengaplikasikan font Montserrat ke seluruh halaman */
         body {
             font-family: 'Montserrat', sans-serif;
         }
 
-        /* CSS Kustom untuk Animasi Navbar */
         .nav-link-animate {
             position: relative;
             padding-bottom: 5px;
@@ -41,7 +39,6 @@
             width: 100%;
         }
 
-        /* Styling untuk loading spinner */
         .spinner {
             border-top-color: #3793e0;
             animation: spin 1s linear infinite;
@@ -53,7 +50,6 @@
             }
         }
 
-        /* Membuat header tabel sticky */
         .table-container {
             max-height: 60vh;
             overflow-y: auto;
