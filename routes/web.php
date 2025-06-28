@@ -43,3 +43,5 @@ Route::get('/status-peta', function () {
 });
 
 
+Route::put('/evakuasi/{id}/status', [EvakuasiController::class, 'updateStatus'])->name('evakuasi.updateStatus');
+
