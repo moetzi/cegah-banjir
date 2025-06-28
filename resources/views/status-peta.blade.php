@@ -5,36 +5,22 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap, Leaflet & Font Awesome CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
     <style>
         body {
-            background-color: #f0f2f5;
-        }
-        .card {
-            border: none;
-        }
-        #map-container {
-            position: relative;
+            font-family: 'Montserrat', sans-serif;
         }
         #map {
-            height: 75vh;
-            border-radius: 0 0 .375rem .375rem;
+            height: 80vh;
             background-color: #e9ecef;
-        }
-        #map-loader {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            z-index: 1001;
-            text-align: center;
-            background: rgba(255, 255, 255, 0.8);
-            padding: 20px;
-            border-radius: 8px;
         }
         .leaflet-popup-content-wrapper {
             border-radius: 8px;
@@ -85,6 +71,7 @@
             border-radius: 50%;
             border: 1px solid rgba(0,0,0,0.2);
         }
+
         @keyframes pulse {
             0% { box-shadow: 0 0 0 0 rgba(220, 53, 69, 0.7); }
             70% { box-shadow: 0 0 0 15px rgba(220, 53, 69, 0); }
@@ -103,43 +90,50 @@
             box-shadow: 0 2px 5px rgba(0,0,0,0.3);
             font-size: 14px;
         }
+        .spinner {
+            border-top-color: #3793e0;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
     </style>
 
-    <!-- Firebase SDK -->
     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
-
-    <!-- Leaflet JS -->
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 </head>
-<body class="bg-light">
+<body class="bg-gradient-to-br from-blue-100 to-blue-200">
 
-<div class="container my-5">
-    <div class="card shadow-sm">
-        <div class="card-header bg-white py-3 d-flex justify-content-between align-items-center">
-            <h4 class="mb-0">
-                <i class="fas fa-map-location-dot text-primary"></i>
-                Peta Hasil Pencarian
-            </h4>
-            <small id="data-timestamp" class="text-muted">Menunggu data...</small>
-        </div>
-        <div id="map-container">
-            <div id="map"></div>
-            <div id="map-loader" class="d-none">
-                <div class="spinner-border text-primary" role="status">
-                    <span class="visually-hidden">Loading...</span>
+    <div class="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
+        <div class="bg-white shadow-2xl rounded-2xl overflow-hidden">
+            <div class="px-6 py-4 flex justify-between items-center border-b border-gray-200">
+                <a href="/status-banjir" class="bg-gray-100 text-gray-800 font-semibold py-2 px-4 rounded-lg shadow-sm hover:bg-gray-200 transition-colors">
+                    <i class="fas fa-arrow-left mr-2"></i>Kembali
+                </a>
+                <h4 class="text-xl font-bold text-[#3793e0] mb-0 hidden md:block">
+                    <i class="fas fa-map-location-dot"></i>
+                    Peta Hasil Pencarian
+                </h4>
+                <small id="data-timestamp" class="text-gray-500 text-right">Menunggu data...</small>
+            </div>
+            <div id="map-container" class="relative">
+                <div id="map"></div>
+                <div id="map-loader" class="absolute inset-0 bg-white/70 flex-col items-center justify-center hidden">
+                    <div class="spinner w-12 h-12 rounded-full border-4 border-t-4 border-gray-200"></div>
+                    <p class="mt-3 text-gray-600">Memuat data peta...</p>
                 </div>
-                <p class="mt-2 mb-0 text-muted">Memuat data peta...</p>
+            </div>
+            <div id="empty-state" class="text-center p-16 hidden">
+                <i class="fas fa-search fa-4x text-gray-400 mb-4"></i>
+                <h4 id="empty-state-title" class="text-2xl font-bold text-gray-700">Tidak Ada Data Untuk Ditampilkan</h4>
+                <p id="empty-state-message" class="text-gray-500 mt-2">Silakan lakukan pencarian di halaman sebelumnya untuk menampilkan data di peta.</p>
+                <a href="/status-banjir" class="mt-4 inline-block bg-[#3793e0] text-white font-semibold py-2 px-5 rounded-lg shadow-md hover:bg-blue-700 transition-colors">
+                    Kembali ke Halaman Pencarian
+                </a>
             </div>
         </div>
-        <div id="empty-state" class="text-center p-5 d-none">
-            <i class="fas fa-search fa-3x text-muted mb-3"></i>
-            <h4 id="empty-state-title">Tidak Ada Data Untuk Ditampilkan</h4>
-            <p id="empty-state-message">Silakan lakukan pencarian di halaman sebelumnya untuk menampilkan data di peta.</p>
-            <a href="/status-banjir" class="btn btn-primary mt-2">Kembali ke Halaman Pencarian</a>
-        </div>
     </div>
-</div>
 
 <script>
     // Konfigurasi Firebase
@@ -167,7 +161,6 @@
     const emptyStateMessage = document.getElementById('empty-state-message');
     let map;
 
-
     const pumpCoordinates = {
         "Pompa Air Dinoyo": [-7.2801, 112.7281],
         "Pompa Air Darmo Kali": [-7.2900, 112.7200],
@@ -182,7 +175,6 @@
         'Hujan Lebat': 'fa-cloud-showers-heavy', 'Gerimis': 'fa-smog', 'Hujan': 'fa-cloud-showers-heavy',
     };
 
-    // Fungsi untuk mendapatkan informasi status (warna, nama)
     function getStatusInfo(status) {
         switch (status) {
             case 'Aman': return { color: '#28a745', name: 'Aman' };
@@ -192,7 +184,6 @@
         }
     }
 
-    // Event listener saat dokumen selesai dimuat
     document.addEventListener('DOMContentLoaded', () => {
         const params = new URLSearchParams(window.location.search);
         const tanggal = params.get('tanggal');
@@ -200,23 +191,21 @@
         const pompa = params.get('pompa');
 
         if (tanggal && waktu) {
-            mapContainer.classList.remove('d-none');
-            emptyState.classList.add('d-none');
+            mapContainer.classList.remove('hidden');
+            emptyState.classList.add('hidden');
             initializeMapAndFetchData(tanggal, waktu, pompa);
         } else {
-            // Tampilkan pesan jika parameter tidak ada
-            mapContainer.classList.add('d-none');
-            emptyState.classList.remove('d-none');
+            mapContainer.classList.add('hidden');
+            emptyState.classList.remove('hidden');
         }
     });
 
-    // Fungsi utama untuk inisialisasi peta dan mengambil data
     function initializeMapAndFetchData(tanggal, waktu, pompaFilter) {
-        mapLoader.classList.remove('d-none'); // Tampilkan loader
+        mapLoader.classList.remove('hidden');
+        mapLoader.classList.add('flex');
 
         map = L.map('map').setView([-7.2756, 112.6416], 12);
 
-        // Opsi layer peta
         const osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
         }).addTo(map);
@@ -225,14 +214,9 @@
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>'
         });
 
-        const baseMaps = {
-            "Default": osm,
-            "Light": positron
-        };
-
+        const baseMaps = { "Default": osm, "Light": positron };
         L.control.layers(baseMaps).addTo(map);
 
-        // Tambahkan legenda ke peta
         const legend = L.control({position: 'bottomright'});
         legend.onAdd = function (map) {
             const div = L.DomUtil.create('div', 'legend');
@@ -251,29 +235,25 @@
         let markersLayer = L.layerGroup().addTo(map);
         let markerBounds = [];
 
-        // Bentuk path data di Firebase
         const dataPath = `monitoring_data/${tanggal}/${waktu}`;
         dataTimestamp.innerText = `Data untuk: ${tanggal} ${waktu}`;
 
-        // Ambil data dari Firebase
         database.ref(dataPath).once('value', (snapshot) => {
-            mapLoader.classList.add('d-none'); // Sembunyikan loader setelah data diterima
+            mapLoader.classList.add('hidden');
+            mapLoader.classList.remove('flex');
             const pumps = snapshot.val();
             let markersCount = 0;
 
             if (!pumps) {
-                // Jika tidak ada data sama sekali pada tanggal/waktu tersebut
                 dataTimestamp.innerText = `Data tidak ditemukan untuk ${tanggal} ${waktu}.`;
-                mapContainer.classList.add('d-none');
-                emptyState.classList.remove('d-none');
+                mapContainer.classList.add('hidden');
+                emptyState.classList.remove('hidden');
                 emptyStateTitle.innerText = "Data Tidak Ditemukan";
                 emptyStateMessage.innerText = `Tidak ada data monitoring untuk tanggal ${tanggal} dan waktu ${waktu}.`;
                 return;
             }
 
-            // Loop melalui setiap stasiun pompa dalam data
             for (let station in pumps) {
-                // LOGIKA FILTER: Jika ada filter pompa dan nama stasiun tidak cocok, lewati
                 if (pompaFilter && pompaFilter.trim() !== '' && !station.toLowerCase().includes(pompaFilter.toLowerCase())) {
                     continue;
                 }
@@ -282,14 +262,13 @@
                 const coord = pumpCoordinates[station] || null;
 
                 if (!coord) {
-                    console.warn(`Koordinat untuk stasiun pompa "${station}" tidak ditemukan. Marker tidak akan ditampilkan.`);
-                    continue; // Lewati jika koordinat tidak ada di list
+                    console.warn(`Koordinat untuk stasiun pompa "${station}" tidak ditemukan.`);
+                    continue;
                 }
 
                 const statusInfo = getStatusInfo(d.flood_status);
                 const pulseClass = d.flood_status === 'Waspada' ? 'pulse-waspada' : '';
 
-                // Buat ikon kustom
                 const customIcon = L.divIcon({
                     html: `<div class="marker-icon ${pulseClass}" style="background-color: ${statusInfo.color};"><i class="fa-solid fa-location-dot"></i></div>`,
                     className: '',
@@ -300,7 +279,6 @@
 
                 const marker = L.marker(coord, { icon: customIcon });
 
-                // Buat konten popup yang detail
                 const popupContent = `
                     <div class="popup-header" style="background-color: ${statusInfo.color};">
                         ${station}
@@ -311,35 +289,30 @@
                         <div class="popup-item"><i class="fas fa-gears"></i> <strong>Pompa Aktif:</strong>&nbsp; ${d.active_pumps}</div>
                         <hr class="my-2">
                         <strong>Status: <span style="color:${statusInfo.color}; font-weight:bold;">${statusInfo.name}</span></strong>
-                    </div>
-                `;
+                    </div>`;
                 marker.bindPopup(popupContent);
                 marker.bindTooltip(station);
 
                 marker.addTo(markersLayer);
-                markerBounds.push(coord); // Tambahkan koordinat untuk auto-zoom
+                markerBounds.push(coord);
                 markersCount++;
             }
 
-            // Setelah loop selesai, periksa apakah ada marker yang ditambahkan
             if (markersCount > 0) {
-                // Jika ada, auto-zoom ke area marker
                 map.fitBounds(markerBounds, { padding: [50, 50], maxZoom: 16 });
-                // Jika hanya ada satu marker, buka popupnya secara otomatis
                 if (markersCount === 1) {
                     markersLayer.eachLayer(layer => layer.openPopup());
                 }
             } else {
-                // Jika tidak ada marker yang cocok dengan filter
-                mapContainer.classList.add('d-none');
-                emptyState.classList.remove('d-none');
+                mapContainer.classList.add('hidden');
+                emptyState.classList.remove('hidden');
                 emptyStateTitle.innerText = "Hasil Tidak Ditemukan";
                 emptyStateMessage.innerText = `Stasiun pompa dengan nama '${pompaFilter}' tidak ditemukan pada data waktu yang dipilih, atau lokasinya belum terdaftar.`;
             }
 
         }, (error) => {
-            // Handle jika terjadi error saat mengambil data
-            mapLoader.classList.add('d-none');
+            mapLoader.classList.add('hidden');
+            mapLoader.classList.remove('flex');
             dataTimestamp.innerText = "Gagal memuat data. Periksa koneksi Anda.";
             console.error("Firebase Error:", error);
         });
