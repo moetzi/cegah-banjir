@@ -1,0 +1,48 @@
+{
+  "rules": {
+    // ATURAN DEFAULT: Kunci semua akses secara default untuk keamanan.
+    ".read": false,
+    ".write": false,
+
+    // ATURAN UNTUK DATA MONITORING POMPA AIR
+    "monitoring_data": {
+      // Izinkan siapa saja (publik) untuk MEMBACA data ini.
+      // Diperlukan untuk halaman status-banjir.blade.php dan status-peta.blade.php
+      ".read": true,
+
+      // Izinkan HANYA admin yang sudah login untuk MENULIS/MENGUBAH data ini.
+      // Diperlukan untuk form input manual di status-das.blade.php
+      ".write": "auth != null"
+    },
+
+    // ATURAN UNTUK DATA REQUEST EVAKUASI
+    // Path ini sesuai dengan yang digunakan di EvakuasiController.php Anda
+    "evakuasi": {
+      // Izinkan HANYA admin yang sudah login untuk MEMBACA data evakuasi.
+      // Ini PENTING untuk melindungi data pribadi pelapor.
+      ".read": "auth != null",
+
+      // Izinkan HANYA admin yang sudah login untuk MENULIS/MENGUBAH data.
+      // Ini mencakup fungsi "Ubah Status" di panel admin.
+      // Penulisan data baru (submit) dari publik akan ditangani oleh server Laravel Anda,
+      // yang tidak terpengaruh oleh aturan ini jika menggunakan kredensial admin.
+      ".write": "auth != null"
+    },
+
+    // ATURAN UNTUK DATA PENGGUNA (ADMIN)
+    "users": {
+      "$uid": {
+        // Seorang admin hanya bisa membaca dan menulis datanya sendiri.
+        ".read": "auth.uid === $uid",
+        ".write": "auth.uid === $uid"
+      }
+    },
+
+    // ATURAN UNTUK NODE 'evaluasi1' YANG TIDAK TERDEFINISI
+    "evaluasi1": {
+        // Kunci akses sepenuhnya.
+        ".read": false,
+        ".write": false
+    }
+  }
+}

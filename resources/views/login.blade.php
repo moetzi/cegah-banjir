@@ -96,14 +96,14 @@
                     </div>
                 </form>
 
-                <div class="text-center text-sm">
+                {{-- <div class="text-center text-sm">
                     <p class="text-gray-600">
                         Belum punya akun?
                         <a href="{{ route('register.form') }}" class="font-semibold text-[#3793e0] hover:text-blue-600">
                             Daftar di sini
                         </a>
                     </p>
-                </div>
+                </div> --}}
             </div>
 
             <p class="text-center text-black text-sm mt-8 fade-in-start">&copy; {{ date('Y') }} CeBan. All rights reserved.</p>
