@@ -273,10 +273,8 @@
 @endif
 
 <script>
-// Handle form submission
+// Handle form submission with loading state but allow normal submission
 document.getElementById('evakuasiForm').addEventListener('submit', function(e) {
-    e.preventDefault(); // Prevent default form submission
-
     const submitBtn = document.getElementById('submitBtn');
     const submitText = document.getElementById('submitText');
     const loadingText = document.getElementById('loadingText');
@@ -286,26 +284,9 @@ document.getElementById('evakuasiForm').addEventListener('submit', function(e) {
     loadingText.style.display = 'inline';
     submitBtn.disabled = true;
 
-    // Get form data
-    const formData = new FormData(this);
-
-    // Submit form using fetch
-    fetch(this.action, {
-        method: 'POST',
-        body: formData,
-        headers: {
-            'X-Requested-With': 'XMLHttpRequest',
-        }
-    })
-    .then(response => {
-        // Always redirect to thank you page regardless of response status
-        window.location.href = "{{ route('thank.you') }}";
-    })
-    .catch(error => {
-        console.error('Error:', error);
-        // Even on error, redirect to thank you page
-        window.location.href = "{{ route('thank.you') }}";
-    });
+    // Let the form submit normally to the backend
+    // Don't prevent default - let Laravel handle everything
+    // The form will submit to EvakuasiController and redirect naturally
 });
 </script>
 </body>
