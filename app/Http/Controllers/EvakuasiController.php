@@ -24,26 +24,31 @@ class EvakuasiController extends Controller
     public function submit(Request $request)
     {
         $request->validate([
-            'nama'       => 'required',
-            'telepon'    => 'required',
-            'lokasi'     => 'required',
-            'orang'      => 'required',
-            'keterangan' => 'required'
+            'nama'           => 'required',
+            'telepon'        => 'required',
+            'tanggal'        => 'required',
+            'lokasi'         => 'required',
+            'nama_korban'    => 'required',
+            'alamat_evakuasi' => 'required',
+            'keterangan'     => 'required'
         ]);
 
         $data = [
-            'nama'       => $request->nama,
-            'telepon'    => $request->telepon,
-            'lokasi'     => $request->lokasi,
-            'orang'      => $request->orang,
-            'keterangan' => $request->keterangan,
-            'status'     => 'Menunggu',
-            'created_at' => now()->toDateTimeString()
+            'nama'           => $request->nama,
+            'telepon'        => $request->telepon,
+            'tanggal'        => $request->tanggal,
+            'lokasi'         => $request->lokasi,
+            'jumlah_korban'  => $request->jumlah_korban,
+            'nama_korban'    => $request->nama_korban,
+            'alamat_evakuasi' => $request->alamat_evakuasi,
+            'keterangan'     => $request->keterangan,
+            'status'         => 'Menunggu',
+            'created_at'     => now()->toDateTimeString()
         ];
 
         Http::post($this->databaseUrl . '/evakuasi.json', $data);
 
-        return redirect('/request-evakuasi')->with('success', 'Request evakuasi berhasil dikirim.');
+        return redirect()->route('thank.you');
     }
 
     // Menampilkan data request evakuasi di admin

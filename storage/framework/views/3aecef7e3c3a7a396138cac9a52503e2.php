@@ -172,15 +172,11 @@
                 <div class="card-body">
                     <h3 class="text-center mb-4 text-primary fw-bold">Form Request Evakuasi</h3>
 
-                    {{-- Hapus alert biasa jika pakai modal --}}
-                    {{--
-                    @if(session('success'))
-                        <div class="alert alert-success">{{ session('success') }}</div>
-                    @endif
-                    --}}
+                    
+                    
 
-                    <form method="POST" action="{{ route('request.evakuasi.submit') }}" id="evakuasiForm">
-                        @csrf
+                    <form method="POST" action="<?php echo e(route('request.evakuasi.submit')); ?>" id="evakuasiForm">
+                        <?php echo csrf_field(); ?>
                         <div class="mb-3">
                             <label class="form-label">Nama Pelapor</label>
                             <input type="text" name="nama" class="form-control" required>
@@ -234,7 +230,7 @@
                     </div>
                 </div>
             </div>
-            <p class="text-center text-white mt-4">&copy; {{ date('Y') }} CeBan. All rights reserved.</p>
+            <p class="text-center text-white mt-4">&copy; <?php echo e(date('Y')); ?> CeBan. All rights reserved.</p>
         </div>
     </div>
 </div>
@@ -260,7 +256,7 @@
 <!-- Bootstrap JS dan script trigger modal -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
-@if(session('success'))
+<?php if(session('success')): ?>
 <script>
     document.addEventListener('DOMContentLoaded', function () {
         var successModal = new bootstrap.Modal(document.getElementById('successModal'));
@@ -270,7 +266,7 @@
         // setTimeout(() => window.location.href = '/', 5000);
     });
 </script>
-@endif
+<?php endif; ?>
 
 <script>
 // Handle form submission with loading state but allow normal submission
@@ -291,3 +287,4 @@ document.getElementById('evakuasiForm').addEventListener('submit', function(e) {
 </script>
 </body>
 </html>
+<?php /**PATH C:\Users\Devy Relliani\College_Project\PPPL\cegah-banjir\resources\views/request-evakuasi.blade.php ENDPATH**/ ?>

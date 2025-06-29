@@ -31,6 +31,9 @@ use App\Http\Controllers\EvakuasiController;
 
 Route::get('/request-evakuasi', [EvakuasiController::class, 'form'])->name('request.evakuasi.form');
 Route::post('/request-evakuasi', [EvakuasiController::class, 'submit'])->name('request.evakuasi.submit');
+Route::get('/thank-you', function () {
+    return view('thank-you');
+})->name('thank.you');
 Route::get('/admin/evakuasi', [EvakuasiController::class, 'adminEvakuasi'])->name('admin.evakuasi');
 
 
