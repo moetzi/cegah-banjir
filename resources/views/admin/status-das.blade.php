@@ -24,7 +24,7 @@
 
 <body class="p-4">
 <div class="container">
-    <button class="btn btn-primary mb-4" onclick="window.location.href='/status-peta'">Lihat Peta</button>
+
 
     <h2 class="text-primary fw-bold mb-4">🌀 Status Banjir DAS (Realtime)</h2>
 
