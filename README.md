@@ -159,7 +159,7 @@ Follow these instructions to get a local copy of the project up and running for 
 
 The repository follows a standard Laravel project structure.
 
-`````
+```
 
 app/                \# Core application logic (Controllers, Models, Services)
 bootstrap/          \# Application bootstrap scripts
