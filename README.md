@@ -1,10 +1,11 @@
 # Cegah Banjir (CeBan)
 <p align="center">
   <img src="thumbnail.png" alt="Cegah Banjir Header">
+    <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/MIT-green?style=for-the-badge" alt="License: MIT" /></a>
+    <a href="https://www.php.net"><img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" /></a>
+    <a href="https://laravel.com"><img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel" /></a>
 </p>
-![License: MIT](https://img.shields.io/badge/MIT-green?style=for-the-badge)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+
 
 A web-based platform designed to provide real-time information and emergency services related to flood events. CeBan integrates data from various official sources to enhance community preparedness and accelerate response to flood disasters.
 
