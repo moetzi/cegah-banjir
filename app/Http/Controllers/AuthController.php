@@ -45,7 +45,8 @@ class AuthController extends Controller
 
            return redirect()->route('admin.dashboard')->with('success', 'Berhasil login!');
         } catch (\Exception $e) {
-            return redirect()->back()->with('error', $e->getMessage());
+            $errorMessage = 'Email atau password yang Anda masukkan salah. Silakan coba lagi.';
+            return redirect()->back()->with('error', $errorMessage);
         }
     }
 

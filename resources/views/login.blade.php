@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Login | CeBan</title>
@@ -11,7 +12,8 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
 
     <style>
         body {
@@ -24,6 +26,7 @@
                 opacity: 0;
                 transform: translateY(20px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
@@ -37,8 +40,37 @@
         .fade-in-animate {
             animation: fadeIn 0.7s ease-out forwards;
         }
+
+        @keyframes shake {
+
+            10%,
+            90% {
+                transform: translateX(-1px);
+            }
+
+            20%,
+            80% {
+                transform: translateX(2px);
+            }
+
+            30%,
+            50%,
+            70% {
+                transform: translateX(-4px);
+            }
+
+            40%,
+            60% {
+                transform: translateX(4px);
+            }
+        }
+
+        .animate-shake {
+            animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+        }
     </style>
 </head>
+
 <body class="bg-gradient-to-br from-blue-100 to-blue-200">
 
     <div class="min-h-screen flex flex-col items-center justify-center px-4">
@@ -55,13 +87,18 @@
 
                 <h2 class="text-3xl font-bold text-center text-[#3793e0]">Login Akun</h2>
 
-                @if(session('error'))
-                    <div class="bg-red-100 border-l-4 border-red-500 text-red-700 p-4 rounded-md" role="alert">
-                        <p>{{ session('error') }}</p>
+                @if (session('error'))
+                    <div class="flex items-center bg-red-50 text-red-700 p-4 rounded-lg border border-red-200 animate-shake"
+                        role="alert">
+                        <i class="fas fa-exclamation-triangle fa-lg mr-3"></i>
+                        <div>
+                            <p class="font-bold">Login Gagal</p>
+                            <p class="text-sm">{{ session('error') }}</p>
+                        </div>
                     </div>
                 @endif
 
-                @if(session('success'))
+                @if (session('success'))
                     <div class="bg-green-100 border-l-4 border-green-500 text-green-700 p-4 rounded-md" role="alert">
                         <p>{{ session('success') }}</p>
                     </div>
@@ -75,22 +112,27 @@
                             <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
                                 <i class="fas fa-envelope text-gray-400"></i>
                             </div>
-                            <input type="email" name="email" id="email" class="focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 px-4 py-2 sm:text-sm border-gray-300 rounded-md" placeholder="Masukkan email anda" required>
+                            <input type="email" name="email" id="email"
+                                class="focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 px-4 py-2 sm:text-sm border-gray-300 rounded-md"
+                                placeholder="Masukkan email anda" required>
                         </div>
                     </div>
 
                     <div>
                         <label for="password" class="block text-sm font-medium text-gray-700">Password</label>
                         <div class="mt-1 relative rounded-md shadow-sm">
-                             <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                            <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
                                 <i class="fas fa-lock text-gray-400"></i>
                             </div>
-                            <input type="password" name="password" id="password" class="focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 px-4 py-2 sm:text-sm border-gray-300 rounded-md" placeholder="Masukkan password Anda" required>
+                            <input type="password" name="password" id="password"
+                                class="focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 px-4 py-2 sm:text-sm border-gray-300 rounded-md"
+                                placeholder="Masukkan password Anda" required>
                         </div>
                     </div>
 
                     <div>
-                        <button type="submit" class="w-full flex justify-center py-3 px-4 border border-transparent rounded-full shadow-sm text-sm font-medium text-white bg-[#3793e0] hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-all duration-300 transform hover:scale-105">
+                        <button type="submit"
+                            class="w-full flex justify-center py-3 px-4 border border-transparent rounded-full shadow-sm text-sm font-medium text-white bg-[#3793e0] hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-all duration-300 transform hover:scale-105">
                             Login
                         </button>
                     </div>
@@ -106,7 +148,8 @@
                 </div> --}}
             </div>
 
-            <p class="text-center text-black text-sm mt-8 fade-in-start">&copy; {{ date('Y') }} CeBan. All rights reserved.</p>
+            <p class="text-center text-black text-sm mt-8 fade-in-start">&copy; {{ date('Y') }} CeBan. All rights
+                reserved.</p>
         </div>
     </div>
 
@@ -122,4 +165,5 @@
     </script>
 
 </body>
+
 </html>
