@@ -68,14 +68,10 @@
 <script>
     // Firebase config
     const firebaseConfig = {
-        apiKey: "AIzaSyCtvJ2hGE0jvp_wOGqH8uG7pg1sgrvTLwo",
-        authDomain: "cegah-banjir.firebaseapp.com",
-        databaseURL: "https://cegah-banjir-default-rtdb.asia-southeast1.firebasedatabase.app",
-        projectId: "cegah-banjir",
-        storageBucket: "cegah-banjir.appspot.com",
-        messagingSenderId: "878634677325",
-        appId: "1:878634677325:web:d6077eaf62ea13490a1804",
-        measurementId: "G-W3YXYXR23B"
+        apiKey: "API_KEY",
+        authDomain: "AUTH_DOMAIN",
+        databaseURL: "DB_URL",
+        projectId: "PROJECT_ID",
     };
 
     // Inisialisasi Firebase
